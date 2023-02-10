@@ -1,29 +1,19 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Bienvenido al blog de la luna!"
 date:   2023-02-10 10:41:44 +0100
 categories: jekyll update
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+Saludos, 
 
-Jekyll requires blog post files to be named according to the following format:
+Este blog ha sido créado con la intencion de ser un blog hispanohablante, de primeras diria que me tengo que comprar un querty para poder escribir correctamente "por el tema de los acentos". El que tenga [IPv6](https://es.wikipedia.org/wiki/IPv6) y **gemini** ya sabe por donde voy, ver en [gemini://gmi.lunarviews.net/my-posts/es-azerty.gmi](gemini://gmi.lunarviews.net/my-posts/es-azerty.gmi) si aun no sabes lo que es gemini pasate por aqui : [Gemini (protocolo)](https://es.wikipedia.org/wiki/Gemini_(protocolo)) 
 
-`YEAR-MONTH-DAY-title.MARKUP`
+**Sobre mi ?**   
+pues soy uno de los tantos que ya hacian webs el siglo pasado pero eso no quiere decir nada :D 
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+Hice mis primeros pinitos en codigo con basic en calculadoras que ya ni me acuerdo como se llamaban, he tenido expereriencias con cosas que se llamaban systema de explotacion naval de informaciones tacticas y que nos permitian de ver puntitos que se movian en los scopes.
 
-Jekyll also offers powerful support for code snippets:
+Bien, actualmente estoy en formacion autodidacta, al igual que los anios pasados en los témas de la programacion, redes, y cosillas que hacen que o trabajo muy tarde con la luna, o como se dice por aqui mucha gente piensa que estoy en la luna. Por el tema de que me paro a pensar en codigos o problemillas que andan haciendome cosquillas en las neuronas.
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+**Sobre mi edad ?**  
+pues como todo buen programador que se ha programado un [Guessing Game](https://doc.rust-lang.org/book/ch02-00-guessing-game-tutorial.html) les diria que ando entre los 55 y los 60. De todas formas para mi la édad esta en el coco aunque los médicos digan que tenemos la édad  de nuestras artérias.
