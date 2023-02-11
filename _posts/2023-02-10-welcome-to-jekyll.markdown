@@ -6,7 +6,7 @@ categories: jekyll update
 ---
 Saludos, 
 
-Este blog ha sido créado con la intencion de ser un blog hispanohablante, de primeras diria que me tengo que comprar un querty para poder escribir correctamente "por el tema de los acentos". El que tenga [IPv6](https://es.wikipedia.org/wiki/IPv6) y **gemini** ya sabe por donde voy, ver en [gemini://gmi.lunarviews.net/my-posts/es-azerty.gmi](gemini://gmi.lunarviews.net/my-posts/es-azerty.gmi) si aun no sabes lo que es gemini pasate por aqui : [Gemini (protocolo)](https://es.wikipedia.org/wiki/Gemini_(protocolo)) 
+Este blog ha sido créado con la intencion de ser un blog hispanohablante, sin embargo como soy bilingue et que cela fait vraiement logntemps que je ne suis pass allé faire un tour en Espana de primeras diria que me tengo que comprar un querty para poder escribir correctamente "por el tema de los acentos". El que tenga [IPv6](https://es.wikipedia.org/wiki/IPv6) y **gemini** ya sabe por donde voy, ver en [gemini://gmi.lunarviews.net/my-posts/es-azerty.gmi](gemini://gmi.lunarviews.net/my-posts/es-azerty.gmi) si aun no sabes lo que es gemini pasate por aqui : [Gemini (protocolo)](https://es.wikipedia.org/wiki/Gemini_(protocolo)) 
 
 **Sobre mi ?**   
 pues soy uno de los tantos que ya hacian webs el siglo pasado pero eso no quiere decir nada :D 

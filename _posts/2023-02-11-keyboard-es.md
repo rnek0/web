@@ -69,7 +69,7 @@ keycode  58 = comma question comma questiondown dead_acute dead_doubleacute dead
 keycode  61 = exclam section exclamdown section dead_belowdot dead_abovedot dead_belowdot
 ```
 
-Pour que mon ~/.Xmodmap soit pris en compte au demarrage il doit être défini dans le .xinitrc : 
+> Pour que mon ~/.Xmodmap soit pris en compte au demarrage il doit être défini dans le .xinitrc : 
 
 ```
 usermodmap=$HOME/.Xmodmap
@@ -78,6 +78,3 @@ if [ -f "$usermodmap" ]; then
     xmodmap "$usermodmap"
 fi
 ```
-
-
-
