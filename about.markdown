@@ -4,15 +4,18 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+![Moi et neko](assets/tony&neko.png)
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Hey, aqui estamos ;)
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+Este blog esta hecho con Jekyll [jekyllrb.com](https://jekyllrb.com/)
+El theme es **Minima**, es el que viene por defecto, simple y interesante a toquetear como yo lo he hecho.
 
+> [jekyll-organization](https://github.com/jekyll)] / [minima](https://github.com/jekyll/minima)
 
-[jekyll-organization]: https://github.com/jekyll
+* [jekyll](https://github.com/jekyll/jekyll)  
+* [jekyll-organization](https://github.com/jekyll)
+
+Esta hospedado en github pages y el DNS lo gestiona Gandi
+
+Es bastante practico, escribes, generas las paginas en el repo y haces el push hacia el repo alojado en Github.
