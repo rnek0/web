@@ -7,17 +7,21 @@ categories: red bash
 
 ![La co](/assets/cable-ethernet.webp)
 
-Me levanto y mi ordenador me esta esperando, se podria decir casi que esta en la interrupción **"rnek0 dime algo"**; que fuerte ! mi colegui el ordenata me va a llevar a dar la vuelta al mundo !!!  
-y ...  
-mucho mas me digo yo, si pasamos por la estación internacional... jajaja
-
+Me levanto y mi ordenador me esta esperando, se podría decir casi que está en la interrupción **"rnek0 díme algo"**...  
+¡ que fuerte ! mi colegui el ordenata me va a llevar a dar la vuelta al mundo y ...  
+mucho más lejos pienso yo, si pasamos por la estación internacional. jajaja
+<a name="la co"></a>
 ## La Red y la co
 
 > La co ? la conexión a internet claro esta. 
 
-A veces con mi pc me gustaria tener un comando desconecta !!! Si señor, cierra la puerta y quedate en casa sin que esto se ponga a sonar por todos lados, y enfin poder concentrarme en lo que me gusta sin tener miedo que un delincuente transeunte encuentre **el puerto abierto**  por donde entraba la corriente de aire.  
+A veces con mi pc me gustaría tener el comando de desconexión !!! Si señor, cierra la puerta y quedate en casa sin que esto se ponga a sonar por todos lados, y enfin podré concentrarme en lo que me gusta sin tener miedo que un delincuente transeunte encuentre **el puerto abierto**  por donde entraba la corriente de aire.  
 Señorita porfa, **donde esta el boton desconecta en el teclado ?**  
 Como señorita no responde nos lo vamos a créar. Enfin poco mas o menos.
+
+Se me viene à la mente de decir al principio que hay una utilidad [NetworkManager](https://es.wikipedia.org/wiki/NetworkManager) prevista para simplificar el uso de redes de computadoras en Linux. No es que no me guste, lo hace muy bien pero no te aprende a hacerlo por ti mismo. Asi aprendes como funciona todo esto, esto hace parte de las [**4 libertades del software libre**](https://www.gnu.org/philosophy/free-sw.es.html#four-freedoms)
+
+&nbsp;
 
 ## La Tarjeta de red  
 
@@ -119,20 +123,24 @@ rtt min/avg/max/mdev = 0.509/0.587/0.701/0.082 ms
 
 # ¡¡¡ Quiero la CO !!!
 
-Vale antes de hablar de la **co**, hay que saber sobre lo que estoy hablando:
+Vale antes de hablar de [la **co**](#la co), hay que saber sobre lo que estoy hablando:
 
-* En este articulo te hablo sobre todo de **Ethernet** (conexión por cable).  
-* Tampoco hablo de **dhcp** es decir que logicamente en tu casa conectas el ordenador con el cable y el router te da la ip automaticamente, y ya !
-* Hablo de como conectar tu tarjeta de red por el terminal con **una IP fija**
+* En este articulo te hablo sobre todo de [**Ethernet**](https://es.wikipedia.org/wiki/Ethernet) (conexión por cable).  
+* No hablo de [**DHCP**](https://es.wikipedia.org/wiki/Protocolo_de_configuraci%C3%B3n_din%C3%A1mica_de_host), es decir que logicamente en tu casa conectas el ordenador con el cable y el router te da la IP automaticamente, y ya !
+* Hablo de **como conectar tu tarjeta de red** por el terminal con **una [IP fija](https://es.wikipedia.org/wiki/Direcci%C3%B3n_IP#IP_fija)**
 
-El router proporciona a los clientes una dirección IP dinámica, la máscara de subred, la dirección IP de la puerta de enlace predeterminada y, opcionalmente, también servidores de nombres DNS.
+El router proporciona a los clientes con DHCP, una dirección IP dinámica, la máscara de subred, la dirección IP de la puerta de enlace predeterminada y, opcionalmente, también servidores de nombres DNS.
 
-Eso es el plug and play, no veo porque ando escribiendo todo esto si funciona asi de rapido :D ... Bueno con la frase mas arriva ya ves que aunque parezca magico hay muchas cosas que suceden por detras de esa simple acción, y de ello va lo que cuento aqui.
+Eso es el plug and play, no veo porque ando escribiendo todo esto si funciona así de rapido :D  
+Bueno con la frase mas arriva ya ves que aunque parezca magico hay muchas cosas que suceden por detras de esa simple acción, y de ello va lo que cuento aqui.
 
 
 ## Activando la interfaz de red
 
-Bueno, ya iva siendo hora de activar esa interfaz de red, y para ello el comando magico : **ip**
+La interfaz de red debe tener su dirección IP, concretamente para esta maquina ya hemos pasado por la configuracion del router y le hemos dado una IP fija (192.168.1.18).
+
+Bueno, ya iva siendo hora de activar esa interfaz de red, y para ello:  
+> el comando magico : **ip**
 
 El comando **ip** te brinda su ayuda con el comando **man**, eso ya lo sabiamos pero nunca esta de mas de repetirlo.
 
@@ -142,7 +150,9 @@ NAME
        ip - show / manipulate routing, network devices, interfaces and tunnels
 ```
 
-A continuacion el script de **co** que se conectara con la ip 192.168.1.18
+&nbsp;
+
+A continuacion el script de **co** que se conectara con la ip 192.168.1.18 (*leelo atentivamente antes de ejecutar*)
 
 ```bash
 #! /bin/bash
@@ -227,6 +237,85 @@ sleep 1
 title "Terminado exitosamente."
 exit $SUCCES
 ```
+
+Con el script de arriba me conecto à la red, seria la parte ON de nuestro boton.
+
+&nbsp;
+
+## Enroutamiento
+
+En el script anterior **se supone** que la maquina esta en una red local y que el [router](https://es.wikipedia.org/wiki/Router) esta en la ip ```192.168.1.1```
+
+Por otra parte, quien es el administrador de resolución de nombres de red de mi sistema ?  
+[**systemd-resolved**](https://man.archlinux.org/man/systemd-resolved.8) es un servicio systemd que proporciona resolución de nombres de red a aplicaciones locales a través de una interfaz D-Bus 
+
+```bash
+uranus# systemctl status systemd-resolved
+● systemd-resolved.service - Network Name Resolution
+     Loaded: loaded (/usr/lib/systemd/system/systemd-resolved.service; enabled; preset: enabled)
+     Active: active (running) since Fri 2023-02-10 10:01:06 CET; 2 days ago
+       Docs: man:systemd-resolved.service(8)
+             man:org.freedesktop.resolve1(5)
+             https://www.freedesktop.org/wiki/Software/systemd/writing-network-configuration-managers
+             https://www.freedesktop.org/wiki/Software/systemd/writing-resolver-clients
+```
+
+&nbsp;
+
+## Il el boton off ? Donde esta ?
+
+Bien esto lo he dejado para el final, asi si has llegado hasta aqui eso quiere decir que estas interesado en la solución y te puedo dejar el script de deconnexión para que juegues con todo esto. Imagina que haces esto al principio y te quedas a dos velas, ¡ hé, que paso !? ¡¡¡Auxilio!!!
+
+(*leelo atentivamente antes de ejecutar*)
+
+```bash
+#!/bin/bash
+# Desconnectar la interfaz de la red.
+
+SUCCES=0
+IP=192.168.1.19
+DEVICE=$(ip link show | grep "altname" | awk '{print $NF}')
+
+# Colors
+RED=$(printf '\033[31m')
+BLUE=$(printf '\033[34m')
+BOLD=$(printf '\033[1m')
+RESET=$(printf '\033[m')
+BELL=$(printf '\a')
+
+function title(){
+  echo "❯ $BLUE$1$RESET"
+}
+
+function yes_or_no() {
+  while true; do
+    read -p "$* [y/n]: " yn
+      case $yn in
+        [Yy]*) return 0  ;;
+        [Nn]*) echo "Proceso anulado." ; exit $SUCCES ;;
+      esac
+  done
+}
+
+title "Desconectar el PC de la red"
+
+if [ "$EUID" -ne 0 ]; then
+  echo $BELL
+    echo "$RED Ejecute el script con sudo.$RESET"
+    exit $SUCCES
+fi
+
+echo "Desea desconnectar el pc de la red ?"
+yes_or_no
+
+sudo ip link set dev $DEVICE down && echo "PC desconectado."
+```
+
+Una **co** Ethernet sin **NetworkManager** personalizada.
+
+> Pregunta: que hay del arranque ?
+
+Eso tambien se puede automatizar y para ello mas adelante veremos la creacion de scripts systemd. Asi puedes poner el de la **co** en el arranque del systèma.
 
 Et voila !
 
