@@ -260,6 +260,19 @@ uranus# systemctl status systemd-resolved
              https://www.freedesktop.org/wiki/Software/systemd/writing-resolver-clients
 ```
 
+Por otra parte, si no teneis resolucion DNS haciendo un ```ping -c1 google.com``` teneis que habrir el fichero ```/etc/resolv.conf``` y poner dentro una linea con nameserver ip del resolver :
+
+```
+└╼rnek0$cat /etc/resolv.conf
+───────┬─────────────────────────────
+       │ File: /etc/resolv.conf
+───────┼─────────────────────────────
+   1   │ nameserver 192.168.1.1
+───────┴─────────────────────────────
+```
+
+Como saber que no tienes resolucion de dns ? pues pingueas una ip externa y si te lo devuelve tienes acceso a la red externa pero si con el nombre de dominio no te lo devuelve pues ya lo sabes.
+
 &nbsp;
 
 ## Il el boton off ? Donde esta ?
