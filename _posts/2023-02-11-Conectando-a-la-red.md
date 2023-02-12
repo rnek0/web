@@ -7,15 +7,15 @@ categories: red bash
 
 ![La co](/assets/cable-ethernet.webp)
 
-Me levanto y mi ordenador me esta esperando, se podria decir casi que esta en la interrupcion **"rnek0 dime algo"**; que fuerte ! mi colegui el ordenata me va a llevar a dar la vuelta al mundo !!!  
+Me levanto y mi ordenador me esta esperando, se podria decir casi que esta en la interrupción **"rnek0 dime algo"**; que fuerte ! mi colegui el ordenata me va a llevar a dar la vuelta al mundo !!!  
 y ...  
-mucho mas me digo yo, si pasamos por la estacion internacional... jajaja
+mucho mas me digo yo, si pasamos por la estación internacional... jajaja
 
 ## La Red y la co
 
 > La co ? la conexión a internet claro esta. 
 
-A veces con mi pc me gustaria tener un comando desconecta !!! Si señor, cierra la puerta y quedate en casa sin que esto se ponga a sonar por todos lados, y enfin poder concentrarme en lo que me gusta sin tener miedo que un delincuente transeunte encuentre **el puerto** habierto por donde entraba la corriente de aire.  
+A veces con mi pc me gustaria tener un comando desconecta !!! Si señor, cierra la puerta y quedate en casa sin que esto se ponga a sonar por todos lados, y enfin poder concentrarme en lo que me gusta sin tener miedo que un delincuente transeunte encuentre **el puerto abierto**  por donde entraba la corriente de aire.  
 Señorita porfa, **donde esta el boton desconecta en el teclado ?**  
 Como señorita no responde nos lo vamos a créar. Enfin poco mas o menos.
 
@@ -76,7 +76,7 @@ Con esta linea ya podemos decir que la tarjeta funciona :
 
 Vale, la tarjeta funciona pero como la puedo utilizar ?
 
-El kernel de Linux distingue universalmente entre dos tipos de interfaces de red de software, física o virtual: 
+El kernel de Linux distingue universalmente entre dos tipos de **interfaces** de red de software, **física** o **virtual**: 
 
 ### Interfaces de red física
 eth0, eth8, radio0, wlan19, .. **siempre representan un dispositivo de hardware de red real**, como una NIC , WNIC o algún otro tipo de módem . Tan pronto como el controlador del dispositivo se carga en el kernel, la interfaz de red física correspondiente se vuelve presente y está disponible.
@@ -117,18 +117,117 @@ rtt min/avg/max/mdev = 0.509/0.587/0.701/0.082 ms
 
 ---
 
-# Quiero la CO !!!
+# ¡¡¡ Quiero la CO !!!
 
-Vale antes de hablar de la **co**, a saber sobre lo que esoty hablando:
+Vale antes de hablar de la **co**, hay que saber sobre lo que estoy hablando:
 
 * En este articulo te hablo sobre todo de **Ethernet** (conexión por cable).  
 * Tampoco hablo de **dhcp** es decir que logicamente en tu casa conectas el ordenador con el cable y el router te da la ip automaticamente, y ya !
+* Hablo de como conectar tu tarjeta de red por el terminal con **una IP fija**
 
 El router proporciona a los clientes una dirección IP dinámica, la máscara de subred, la dirección IP de la puerta de enlace predeterminada y, opcionalmente, también servidores de nombres DNS.
 
 Eso es el plug and play, no veo porque ando escribiendo todo esto si funciona asi de rapido :D ... Bueno con la frase mas arriva ya ves que aunque parezca magico hay muchas cosas que suceden por detras de esa simple acción, y de ello va lo que cuento aqui.
 
 
+## Activando la interfaz de red
 
+Bueno, ya iva siendo hora de activar esa interfaz de red, y para ello el comando magico : **ip**
 
+El comando **ip** te brinda su ayuda con el comando **man**, eso ya lo sabiamos pero nunca esta de mas de repetirlo.
 
+```bash
+❯ man ip | grep -E "^NAME" -A2
+NAME
+       ip - show / manipulate routing, network devices, interfaces and tunnels
+```
+
+A continuacion el script de **co** que se conectara con la ip 192.168.1.18
+
+```bash
+#! /bin/bash
+# Connectar el dispositivo a la red.
+
+SUCCES=0
+IP=192.168.1.18
+DEVICE=$(ip link show | grep "altname" | awk '{print $NF}')
+
+# Colors
+RED=$(printf '\033[31m')
+BLUE=$(printf '\033[34m')
+BOLD=$(printf '\033[1m')
+RESET=$(printf '\033[m')
+BELL=$(printf '\a')
+
+function title(){
+  echo ""
+  echo "$BLUE❯ $1$RESET"
+}
+
+function yes_or_no() {
+  while true; do
+    read -p "$* [y/n]: " yn
+      case $yn in
+        [Yy]*) return 0  ;;  
+        [Nn]*) echo "Proceso anulado." ; exit $SUCCES ;;
+      esac
+  done
+}
+
+echo "==========================================================================="
+echo "                       $RED>>> NETWORK CONFIGURATION <<<$RESET                       "
+echo "==========================================================================="
+
+if [ "$EUID" -ne 0 ]; then
+    echo $BELL
+    echo "$RED Ejecute el script con sudo.$RESET"
+    echo "La IP sera 192.168.1.18 puede cambiarla pasandosela en parametro (ipv4)"
+    echo "El router debe haber asignado la ip estaticamente."
+    echo
+    exit
+fi
+
+if [ -z $1 ]; then 
+  echo "La direccion IP de la maquina sera : $IP";
+  yes_or_no
+else 
+  echo "La direccion IP de la maquina sera : '$1'"; 
+  yes_or_no
+  IP=$1
+fi
+
+title "Activando el dispositivo $BOLD$DEVICE"
+
+function validCmd(){
+$1
+if [ $? -eq 0 ]; then
+  echo "procesando ..."
+else
+  echo "$RED:($RESET fallo inesperado con el comando $1"
+fi
+sleep 2
+}
+
+# Activa la interfaz
+sudo ip link set dev $DEVICE up
+
+# Borra la direccion ip sin poner la interfaz fuera de servicio
+validCmd "ip addr flush dev $DEVICE"
+
+title "Connectandose a la red local..."
+# Le pone la direccion ip a la interfaz
+validCmd "sudo ip addr add $IP/24 dev $DEVICE"
+validCmd "ping -c3 192.168.1.1"
+
+title "Conectandose a internet..."
+validCmd "sudo ip route add default via 192.168.1.1 dev $DEVICE"
+
+sleep 1
+
+title "Terminado exitosamente."
+exit $SUCCES
+```
+
+Et voila !
+
+[Volver al inicio](https://web.lunarviews.net/)
