@@ -7,7 +7,7 @@ categories: powershell windows
 
 ## Instalar Windows Terminal y configurar Oh My Posh
 
-![windows Terminal](/assets/pwsh.PNG)
+![windows Terminal](/assets/nimSurWindows.PNG)
 
 El terminal en Windows siempre ha sido una decepción en comparación con el shell de Gnu-Linux (por citar un ejemplo), ha habido algunas mejoras desde Powershell, pero todavía se sentía demasiado austero.  
 
@@ -164,3 +164,8 @@ Poniendo esta linea en tu profile, el tema se tomara en cuenta cada vez que abri
 ```
 
 Terminal tiene muchos parametros que se pueden modificar, solo queda experimentar.
+
+Et Voila !
+
+
+![windows Terminal](/assets/pwsh.PNG)
