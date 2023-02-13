@@ -5,12 +5,15 @@ date:   2023-02-13 11:15:28 +0100
 categories: powershell windows
 ---
 
-## Instalar Windows Terminal y configurar Oh My Posh 
+## Instalar Windows Terminal y configurar Oh My Posh
 
-El terminal en Windows siempre ha sido una decepción en comparación con el shell de Gnu-Linux (por citar un ejemplo), ha habido algunas mejoras desde Powershell, pero todavía se sentía demasiado austero.
-Con Windows Terminal esto ha cambiado y puede agregarle temas como lo hace normalmente con ohmyzsh en Gnu-Linux zsh.
+![windows Terminal](/assets/pwsh.PNG)
 
-De que estamos hablando ? , pues de **Oh My Posh** con **Windows Terminal**.
+El terminal en Windows siempre ha sido una decepción en comparación con el shell de Gnu-Linux (por citar un ejemplo), ha habido algunas mejoras desde Powershell, pero todavía se sentía demasiado austero.  
+
+Con Windows Terminal esto ha cambiado y puedes agregarle temas como lo haces con ohmyzsh en Gnu-Linux y zsh. Viendo la images se comprende mejor de lo que estoy hablando, quien diria que esto es un terminal en Windows ?.
+
+De donde sale esta magia ? , pues de **Oh My Posh** con **Windows Terminal**.
 
 Esta es una guía con los pasos que han sido efectuados en Win 10 que tambien funciona en una cuenta anónima, pocos comandos requieren de privilegios de administrador (pero hay que tenerlos).  
 
@@ -160,4 +163,4 @@ Poniendo esta linea en tu profile, el tema se tomara en cuenta cada vez que abri
  oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\paradox.omp.json" | Invoke-Expression
 ```
 
-Terminal tiene muchos parametros que se pueden modificar, solo queda experimentar
+Terminal tiene muchos parametros que se pueden modificar, solo queda experimentar.
