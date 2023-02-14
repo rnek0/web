@@ -21,3 +21,5 @@ El theme es **Minima**, es el que viene por defecto, simple y interesante a toqu
 Esta hospedado en github pages y el DNS lo gestiona [Gandi](https://www.gandi.net)
 
 Es bastante practico, escribes y generas las páginas en tu equipo y haces el push hacia el repo alojado en Github.
+
+Saludos y [Happy Hacking !!!](https://www.hackingisnotacrime.org/)
