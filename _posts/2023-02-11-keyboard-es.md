@@ -3,6 +3,7 @@ layout: post
 title:  "Retouches dans le .Xmodmap"
 date:   2023-02-11 00:14:44 +0100
 categories: gnu linux
+author: "by rnek0"
 ---
 
 J'ai un clavier azerty en ce moment et je voudrais pouvoir taper en espagnol, je suis en Archlinux avec i3 et Xorg donc voici donc mes manips pour changer les keycodes et pouvoir avoir des jolies ñ (avec win right,n,altgr+2)
