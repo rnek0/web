@@ -30,7 +30,11 @@ mastodon_username: oggy
 theme: minima
 plugins:
   - jekyll-feed
-
+header_pages:
+  - enlaces.md
+  - about.md
+minima:
+  date_format: "%m %b %-d, %Y"
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
