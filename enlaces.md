@@ -18,6 +18,7 @@ permalink: /enlaces/
 #### C
 * 🐇 &nbsp;&nbsp;&nbsp; [The GNU C Reference Manual](https://www.gnu.org/software/gnu-c-manual/gnu-c-manual.html)
 * 🇬🇧 &nbsp;&nbsp;&nbsp; [Understanding pointers - Drew DeVault's blog](https://drewdevault.com/2016/05/28/Understanding-pointers.html)
+* 🇫🇷 &nbsp;&nbsp;&nbsp; [Programmation en langage C - Anne Canteaut](https://www.rocq.inria.fr/secret/Anne.Canteaut/COURS_C/)
 * 🇫🇷 &nbsp;&nbsp;&nbsp; [Tutoriel : La programmation système en C sous Unix](http://sdz.tdct.org/sdz/la-programmation-systeme-en-c-sous-unix.html)
 * 🇫🇷 &nbsp;&nbsp;&nbsp; [Les sockets en C](https://broux.developpez.com/articles/c/sockets/)
 * 🇫🇷 &nbsp;&nbsp;&nbsp; [Bjornulf Frode](https://www.youtube.com/@bjornulf2011/playlists)
@@ -45,8 +46,8 @@ permalink: /enlaces/
 &nbsp;
 
 - 🇬🇧 &nbsp;&nbsp;&nbsp; [Hack The Box](https://app.hackthebox.com/)
-    - &nbsp;&nbsp;<https://academy.hackthebox.com/>
-- 🇪🇸 &nbsp;&nbsp;&nbsp; [hack4u](https://hack4u.io/) *Hack4u – Hacking y Ciberseguridad*
+    - &nbsp;&nbsp;[HTB Academy](https://academy.hackthebox.com/)
+- 🇪🇸 &nbsp;&nbsp;&nbsp; [hack4u](https://hack4u.io/) *Academia Hacking y Ciberseguridad*
 - 🇬🇧 &nbsp;&nbsp;&nbsp; [Overthewire](https://overthewire.org/)
 - 🇬🇧 &nbsp;&nbsp;&nbsp; [Parrot](http://wolf.parrotsec.io/parrot/iso/)
 - 🇬🇧 &nbsp;&nbsp;&nbsp; [THM](https://tryhackme.com/)
