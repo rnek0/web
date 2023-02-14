@@ -7,7 +7,7 @@ categories: jekyll update
 
 Hola soy Tony o mejor dicho rnek0 (erneko), un nick que me saqué de la manga en i2p con algunos amigos, me hace pensar a mi gato, **neko** quiere decir gato en japones, y como tengo ancestros andaluces en vez de "el" neko es "er" nek0, la r en Francia se pronuncia er y no erre bueno pues chorradas de los nicks; igual pronto me busco otro para la coleccion   
 
-Este blog ha sido créado con la intencion de ser un blog hispanohablante, sin embargo como soy bilingue et que hace mucho tiempo que no voy a dar una vuelta a España, de primeras diria que me deberia comprar **un querty** para poder escribir correctamente "por el tema de los acentos". El que tenga [IPv6](https://es.wikipedia.org/wiki/IPv6) y **gemini** ya sabe por donde voy, ver en [gemini://gmi.lunarviews.net/my-posts/es-azerty.gmi](gemini://gmi.lunarviews.net/my-posts/es-azerty.gmi) si aun no sabes lo que es gemini pasate por aqui : [Gemini (protocolo)](https://es.wikipedia.org/wiki/Gemini_(protocolo)) 
+Este blog ha sido créado con la intencion de ser un blog hispanohablante, sin embargo como soy bilingue y que hace mucho tiempo que no voy a dar una vuelta a España, de primeras diria que me deberia comprar **un querty** para poder escribir correctamente "por el tema de los acentos". El que tenga [IPv6](https://es.wikipedia.org/wiki/IPv6) y **gemini** ya sabe por donde voy, ver en [gemini://gmi.lunarviews.net/my-posts/es-azerty.gmi](gemini://gmi.lunarviews.net/my-posts/es-azerty.gmi) si aun no sabes lo que es gemini pasate por aqui : [Gemini (protocolo)](https://es.wikipedia.org/wiki/Gemini_(protocolo)) 
 
 **Sobre mi ?**   
 pues soy uno de los tantos que ya hacian webs el siglo pasado pero eso no quiere decir nada :D 
