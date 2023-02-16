@@ -49,7 +49,7 @@ permalink: /enlaces/
     - &nbsp;&nbsp;[HTB Academy](https://academy.hackthebox.com/)
 - 🇪🇸 &nbsp;&nbsp;&nbsp; [hack4u](https://hack4u.io/) *Academia Hacking y Ciberseguridad*
 - 🇬🇧 &nbsp;&nbsp;&nbsp; [Overthewire](https://overthewire.org/)
-- 🇬🇧 &nbsp;&nbsp;&nbsp; [Parrot](http://wolf.parrotsec.io/parrot/iso/)
+- 🇬🇧 &nbsp;&nbsp;&nbsp; [Parrot](https://www.parrotsec.org/docs/mirrors/mirrors-list)
 - 🇬🇧 &nbsp;&nbsp;&nbsp; [THM](https://tryhackme.com/)
 - 🇬🇧 &nbsp;&nbsp;&nbsp; [Vulnhub](https://vulnhub.com/)
 - 🇬🇧 &nbsp;&nbsp;&nbsp; [WSA](https://portswigger.net/web-security) *Web Security Academy: Free Online Training from PortSwigger*
@@ -70,3 +70,9 @@ permalink: /enlaces/
 &nbsp;
 
 * [Guide de référence Nmap (Man Page, French translation)](https://nmap.org/man/fr/index.html)
+
+## Varios
+
+* [Unicode Flags](http://xahlee.info/comp/unicode_flags.html)
+* [Unicode Luna](https://unicode-table.com/es/sets/moon/)
+* 
