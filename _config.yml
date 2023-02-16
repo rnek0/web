@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: lunarviews - rnek0's blog
+title: 🌖 - rnek0's blog
 email: admin at domain.tld
 description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -26,6 +26,7 @@ url: "https://web.lunarviews.net" # the base hostname & protocol for your site, 
 twitter_username: netapau
 github_username:  rnek0
 mastodon_username: oggy
+youpi: "joyeuse St Valentin 💞"
 # Build settings
 theme: minima
 plugins:

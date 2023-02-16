@@ -13,7 +13,9 @@ Me levanto y mi ordenador me esta esperando, se podría decir casi que está en 
 mucho más lejos pienso yo, si pasamos por la estación internacional. jajaja
 <a name="la co"></a>
 ## La Red y la co
-
+<div style="vertical-align: baseline; display: flex; justify-content: center;">
+<iframe title="¡Dame la co! - connexión con el comando ip en el terminal" src="https://ptb.lunarviews.net/videos/embed/7a46ca03-0107-4c2a-b9c0-cd0c0c6f2385" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups" width="560" height="315" frameborder="0"></iframe>
+</div>
 > La co ? la conexión a internet claro esta. 
 
 A veces con mi pc me gustaría tener el comando de desconexión !!! Si señor, cierra la puerta y quedate en casa sin que esto se ponga a sonar por todos lados, y enfin podré concentrarme en lo que me gusta sin tener miedo que un delincuente transeunte encuentre **el puerto abierto**  por donde entraba la corriente de aire.  
@@ -332,4 +334,3 @@ Una **co** Ethernet sin **NetworkManager** personalizada.
 Eso tambien se puede automatizar y para ello mas adelante veremos la creacion de scripts systemd. Asi puedes poner el de la **co** en el arranque del systèma.
 
 Et voila !
-
