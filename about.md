@@ -10,7 +10,8 @@ permalink: /about/
 
 Hey, aqui estamos ;)
 
-* Este blog esta hecho con [Jekyll](https://jekyllrb.com/)
+> <div style="background-color:#c0c0c0;color:#3e3e40; height:85px;"> &nbsp;&nbsp; <b>Este blog esta hecho con</b> <a href="https://jekyllrb.com/" ><img src="{{ site.url }}/assets/jekyll.png" with="205" height="85"></a></div>
+  
 * El theme es [minima](https://github.com/jekyll/minima), simple y interesante a toquetear como lo voy haciendo.
 * Esta hospedado en github pages y el DNS lo gestiona [Gandi](https://www.gandi.net)
 
