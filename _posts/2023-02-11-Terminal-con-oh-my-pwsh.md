@@ -1,6 +1,6 @@
 ---
 layout: post  
-title:  "Terminal con oh-my-pwsh"
+title:  "🇪🇸   Terminal con oh-my-pwsh"
 date:   2023-02-13 11:15:28 +0100
 categories: powershell windows
 author: "by rnek0"

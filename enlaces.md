@@ -39,7 +39,8 @@ permalink: /enlaces/
 * [Structuring the web with HTML - Learn web development with **MDN**](https://developer.mozilla.org/en-US/docs/Learn/HTML)
 
 #### TypeScript
-* 🇪🇸 &nbsp;&nbsp;&nbsp; [**makigas** Curso de TypeScript 4.9](https://www.youtube.com/watch?v=-iwfkS8tVxE&list=PLTd5ehIj0goPbPaN9VEoQQVUwZN2eXdB5)
+* 🇪🇸 &nbsp;&nbsp;&nbsp; [**makigas** Curso de TypeScript 4.9](https://www.youtube.com/watch?v=-iwfkS8tVxE&list=PLTd5ehIj0goPbPaN9VEoQQVUwZN2eXdB5)  
+* 🇬🇧 &nbsp;&nbsp;&nbsp; [TypeScript Documentation](https://www.typescriptlang.org/docs/)
 
 ## Pentesting
 ---
@@ -47,7 +48,7 @@ permalink: /enlaces/
 
 - 🇬🇧 &nbsp;&nbsp;&nbsp; [Hack The Box](https://app.hackthebox.com/)
     - &nbsp;&nbsp;[HTB Academy](https://academy.hackthebox.com/)
-- 🇪🇸 &nbsp;&nbsp;&nbsp; [hack4u](https://hack4u.io/) *Academia Hacking y Ciberseguridad*
+- 🇪🇸 &nbsp;&nbsp;&nbsp; [hack4u](https://hack4u.io/) **Academia Hacking y Ciberseguridad**
 - 🇬🇧 &nbsp;&nbsp;&nbsp; [Overthewire](https://overthewire.org/)
 - 🇬🇧 &nbsp;&nbsp;&nbsp; [Parrot](https://www.parrotsec.org/docs/mirrors/mirrors-list)
 - 🇬🇧 &nbsp;&nbsp;&nbsp; [THM](https://tryhackme.com/)
@@ -73,6 +74,8 @@ permalink: /enlaces/
 
 ## Varios
 
+* [Thank's DenverCoder1 & friends](https://github.com/DenverCoder1/readme-typing-svg)
+* [rnek0 dotfiles on Sourcehut](https://git.sr.ht/~rnek0/dotfiles)
 * [Unicode Flags](http://xahlee.info/comp/unicode_flags.html)
 * [Unicode Luna](https://unicode-table.com/es/sets/moon/)
 * 

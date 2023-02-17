@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Conectando a la red."
+title:  "🇪🇸   Conectando a la red."
 date:   2023-02-11 23:24:44 +0100
 categories: red bash
 author: "by rnek0"

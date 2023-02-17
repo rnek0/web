@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Conectando al Nextcloud de Hispagatos."
+title:  "🇪🇸  Conectando al Nextcloud de Hispagatos."
 date:   2023-02-11 1:05:44 +0100
 categories: NextCloud bash
 author: "by rnek0"

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Bienvenido al blog de lunarviews"
+title:  "🇪🇸 Bienvenido al blog de lunarviews"
 date:   2023-02-10 10:41:44 +0100
 categories: jekyll update
 author: "by rnek0"

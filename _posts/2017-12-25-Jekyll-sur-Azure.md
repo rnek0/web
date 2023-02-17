@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Création de site statique avec Jekyll sur Windows 10 et hébergement sur Azure HTML"
+title:  "🇫🇷 Création de site statique avec Jekyll sur Windows 10 et hébergement sur Azure HTML"
 date:   2017-12-25 19:22:14 +0100
 categories: jekyll Azure
 ---
