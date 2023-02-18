@@ -74,6 +74,7 @@ permalink: /enlaces/
 
 ## Varios
 
+* [https://www.twitch.tv/s4vitaar](https://www.twitch.tv/s4vitaar)
 * [Thank's DenverCoder1 & friends](https://github.com/DenverCoder1/readme-typing-svg)
 * [rnek0 dotfiles on Sourcehut](https://git.sr.ht/~rnek0/dotfiles)
 * [Unicode Flags](http://xahlee.info/comp/unicode_flags.html)
