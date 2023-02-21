@@ -157,6 +157,9 @@ NAME
 
 A continuacion el script de **co** que se conectara con la ip 192.168.1.18 (*leelo atentivamente antes de ejecutar*)
 
+<script src="https://gist.github.com/rnek0/98f1dd6cf615c313396d356d7e55f5dc.js"></script>
+
+<!--
 ```bash
 #! /bin/bash
 # Connectar el dispositivo a la red.
@@ -240,6 +243,7 @@ sleep 1
 title "Terminado exitosamente."
 exit $SUCCES
 ```
+-->
 
 Con el script de arriba me conecto à la red, seria la parte ON de nuestro boton.
 
@@ -284,6 +288,9 @@ Bien esto lo he dejado para el final, asi si has llegado hasta aqui eso quiere d
 
 (*leelo atentivamente antes de ejecutar*)
 
+<script src="https://gist.github.com/rnek0/35dfffdc649910ea147a3a155251d95a.js"></script>
+
+<!--
 ```bash
 #!/bin/bash
 # Desconnectar la interfaz de la red.
@@ -326,6 +333,7 @@ yes_or_no
 
 sudo ip link set dev $DEVICE down && echo "PC desconectado."
 ```
+-->
 
 Una **co** Ethernet sin **NetworkManager** personalizada.
 
