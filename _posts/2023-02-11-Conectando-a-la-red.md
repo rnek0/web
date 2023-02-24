@@ -19,6 +19,7 @@ mucho más lejos pienso yo, si pasamos por la estación internacional. jajaja
 > La co ? la conexión a internet claro esta. 
 
 A veces con mi pc me gustaría tener el comando de desconexión !!! Si señor, cierra la puerta y quedate en casa sin que esto se ponga a sonar por todos lados, y enfin podré concentrarme en lo que me gusta sin tener miedo que un delincuente transeunte encuentre **el puerto abierto**  por donde entraba la corriente de aire.  
+
 Señorita porfa, **donde esta el boton desconecta en el teclado ?**  
 Como señorita no responde nos lo vamos a créar. Enfin poco mas o menos.
 
@@ -278,7 +279,14 @@ Por otra parte, si no teneis resolucion DNS haciendo un ```ping -c1 google.com``
 ───────┴─────────────────────────────
 ```
 
-Como saber que no tienes resolucion de dns ? pues pingueas una ip externa y si te lo devuelve tienes acceso a la red externa pero si con el nombre de dominio no te lo devuelve pues ya lo sabes.
+**Como saber que no tienes resolucion de dns ?** pues pingueas una ip externa y si te lo devuelve tienes acceso a la red externa pero si con el nombre de dominio no te lo devuelve pues ya lo sabes. Una alternativa es abrir tu navegador internet y hacer una peticion de cualquiera, [como esta por ejemplo](https://web.lunarviews.net "El blog del rnek0 :D").
+
+Aparentemente cuando se establece la conexion con la resolución dns del systemd-resolved el fichero de resolución se sobreescribe, he hecho pues otro script para lanzarlo despues de **la co** (*leelo atentivamente antes de ejecutar*) :
+
+<script src="https://gist.github.com/rnek0/18cd4f4dff3e35922b9c48c0dce6cd87.js"></script>
+
+Los he probado con Archlinux y Parrot, o sea que hay sabores en algunas distribuciones que no sé si se comportaran asi.  
+Una excelente lectura sobre el tema en el [wiki de Archlinux](https://wiki.archlinux.org/title/Systemd-resolved "systemd-resolved is a systemd service that provides network name resolution")
 
 &nbsp;
 

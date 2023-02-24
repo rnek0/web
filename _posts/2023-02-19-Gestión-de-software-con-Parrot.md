@@ -120,3 +120,5 @@ apt clean && apt autoclean
 ```
 
 Estos son solo algunos ejemplos. Si se requiere más información, debe consultar la página del manual (man 8 apt).
+
+Parrot es una distribucion basada en Debian. Puedes consultar la documentacion de ["Gestión de paquetes Debian"](https://www.debian.org/doc/manuals/debian-reference/ch02.es.html#_basic_package_management_operations)

@@ -26,7 +26,7 @@ url: "https://web.lunarviews.net" # the base hostname & protocol for your site, 
 twitter_username: netapau
 github_username:  rnek0
 mastodon_username: oggy
-youpi: "joyeuse St Valentin 💞"
+
 # Build settings
 theme: minima
 plugins:
