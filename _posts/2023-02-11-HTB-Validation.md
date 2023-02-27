@@ -1,9 +1,10 @@
 ---
 layout: post  
-title:  "🇫🇷 HTB-Validation writeup"
+title:  "HTB-Validation writeup"
 date:   2023-02-11 00:14:44 +0100
 categories: gnu linux
 author: "by rnek0"
+lang: "fr"
 ---
 
 # Machine Validation - htb

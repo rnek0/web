@@ -1,9 +1,10 @@
 ---
 layout: post
-title:  "🇪🇸 Gestión de software con Parrot"
+title:  "Gestión de software con Parrot"
 date:   2023-02-20 17:36:44 +0100
-categories: Parrot
+categories: Parrot apt
 author: "by rnek0"
+lang: "es"
 ---
 
 # Gestión de software con Parrot 

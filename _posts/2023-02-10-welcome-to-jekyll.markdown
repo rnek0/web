@@ -1,9 +1,10 @@
 ---
 layout: post
-title:  "🇪🇸 Bienvenido al blog de lunarviews"
+title:  "Bienvenido al blog de lunarviews"
 date:   2023-02-10 10:41:44 +0100
 categories: jekyll update
 author: "by rnek0"
+lang: "es"
 ---
 
 Hola soy Tony o mejor dicho rnek0 (erneko), un nick que me saqué de la manga en i2p con algunos amigos, me hace pensar a mi gato, **neko** quiere decir gato en japones, y como tengo ancestros andaluces en vez de "el" neko es "er" nek0, la r en Francia se pronuncia er y no erre bueno pues chorradas de los nicks; igual pronto me busco otro para la coleccion   

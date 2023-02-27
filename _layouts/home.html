@@ -18,7 +18,7 @@ layout: default
         <span class="post-meta">{{ post.date | date: date_format }}</span>
         <h3>
           <a class="post-link" href="{{ post.url | relative_url }}">
-          :::  {{ post.title | escape }}
+          ::: <img src="/assets/flag-{{post.lang}}.png" with="14" height="14" alt="lang {{post.lang}}" />  {{ post.title | escape }}
           </a>
         </h3>
         {%- if site.show_excerpts -%}
