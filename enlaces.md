@@ -21,25 +21,25 @@ permalink: /enlaces/
 * 🇫🇷 &nbsp;&nbsp;&nbsp; [Programmation en langage C - Anne Canteaut](https://www.rocq.inria.fr/secret/Anne.Canteaut/COURS_C/)
 * 🇫🇷 &nbsp;&nbsp;&nbsp; [Tutoriel : La programmation système en C sous Unix](http://sdz.tdct.org/sdz/la-programmation-systeme-en-c-sous-unix.html)
 * 🇫🇷 &nbsp;&nbsp;&nbsp; [Les sockets en C](https://broux.developpez.com/articles/c/sockets/)
-* 🇫🇷 &nbsp;&nbsp;&nbsp; [Bjornulf Frode](https://www.youtube.com/@bjornulf2011/playlists)
+* <img src="/assets/favi-youtube.png" with="18" height="18" alt="on youtube" /> 🇫🇷 &nbsp;&nbsp;&nbsp; [Bjornulf Frode](https://www.youtube.com/@bjornulf2011/playlists)
 
 #### C++
-* 🇪🇸 &nbsp;&nbsp;&nbsp; [**Pauek** & Asteroids](https://www.youtube.com/watch?v=HCWghQtxlos&list=PLDD6B727E5B6B5E33)
-* 🇪🇸 &nbsp;&nbsp;&nbsp; [**deividcoptero** & Space Invaders C++/Allegro](https://www.youtube.com/playlist?list=PL6hPvfzEEMDZ4PSkN-5Zj_0-YVO7b0OgC)
+* <img src="/assets/favi-youtube.png" with="18" height="18" alt="on youtube" /> 🇪🇸 &nbsp;&nbsp;&nbsp; [**Pauek** & Asteroids](https://www.youtube.com/watch?v=HCWghQtxlos&list=PLDD6B727E5B6B5E33)
+* <img src="/assets/favi-youtube.png" with="18" height="18" alt="on youtube" /> 🇪🇸 &nbsp;&nbsp;&nbsp; [**deividcoptero** & Space Invaders C++/Allegro](https://www.youtube.com/playlist?list=PL6hPvfzEEMDZ4PSkN-5Zj_0-YVO7b0OgC)
 
 #### Go
 * 🇬🇧 &nbsp;&nbsp;&nbsp; [The Go Blog](https://go.dev/blog/all)
 * 🇬🇧 &nbsp;&nbsp;&nbsp; [Quick Start - Hugo](https://gohugo.io/getting-started/quick-start/)
   
 #### C#
-* 🇲🇽 &nbsp;&nbsp;&nbsp; [**TI Capacitación**](https://www.youtube.com/@CanalTICapacitacion)
-* 🇪🇸 &nbsp;&nbsp;&nbsp; [**Julio Ureña** - Introducción - Process Injection](https://www.youtube.com/watch?v=cZBTAzC6qpg&list=PLXm1FM6zsxpBt7vZiS9Q4-4nvybd9il3t)
+* <img src="/assets/favi-youtube.png" with="18" height="18" alt="on youtube" /> 🇲🇽 &nbsp;&nbsp;&nbsp; [**TI Capacitación**](https://www.youtube.com/@CanalTICapacitacion)
+* <img src="/assets/favi-youtube.png" with="18" height="18" alt="on youtube" /> 🇪🇸 &nbsp;&nbsp;&nbsp; [**Julio Ureña** - Introducción - Process Injection](https://www.youtube.com/watch?v=cZBTAzC6qpg&list=PLXm1FM6zsxpBt7vZiS9Q4-4nvybd9il3t)
 
 #### HTML
 * [Structuring the web with HTML - Learn web development with **MDN**](https://developer.mozilla.org/en-US/docs/Learn/HTML)
 
 #### TypeScript
-* 🇪🇸 &nbsp;&nbsp;&nbsp; [**makigas** Curso de TypeScript 4.9](https://www.youtube.com/watch?v=-iwfkS8tVxE&list=PLTd5ehIj0goPbPaN9VEoQQVUwZN2eXdB5)  
+* <img src="/assets/favi-youtube.png" with="18" height="18" alt="on youtube" /> 🇪🇸 &nbsp;&nbsp;&nbsp; [**makigas** Curso de TypeScript 4.9](https://www.youtube.com/watch?v=-iwfkS8tVxE&list=PLTd5ehIj0goPbPaN9VEoQQVUwZN2eXdB5)  
 * 🇬🇧 &nbsp;&nbsp;&nbsp; [TypeScript Documentation](https://www.typescriptlang.org/docs/)
 
 ## Pentesting
@@ -61,7 +61,8 @@ permalink: /enlaces/
 ---
 &nbsp;
 
-* [🐇 Reverse Engineering for Beginners](https://beginners.re/)
+* <img src="/assets/github-mark-white.svg" with="18" height="18" alt="on github" /> [radare2](https://github.com/radareorg/radare2/blob/master/README.md)
+* 🌐 [🐇 Reverse Engineering for Beginners](https://beginners.re/)
 * [**LiveOverflow** Channel](https://www.youtube.com/watch?v=iyAyN3GFM7A&list=PLhixgUqwRTjxglIswKp9mpkfPNfHkzyeN&index=1)
 * [Overview - CTF 101](https://ctf101.org/reverse-engineering/overview/)
 
@@ -74,9 +75,10 @@ permalink: /enlaces/
 
 ## Varios
 
-* [https://www.twitch.tv/s4vitaar](https://www.twitch.tv/s4vitaar)
+* <img src="/assets/favi-twitch.png" with="18" height="18" alt="on github" /> [https://www.twitch.tv/s4vitaar](https://www.twitch.tv/s4vitaar)
 * [Thank's DenverCoder1 & friends](https://github.com/DenverCoder1/readme-typing-svg)
 * [rnek0 dotfiles on Sourcehut](https://git.sr.ht/~rnek0/dotfiles)
 * [Unicode Flags](http://xahlee.info/comp/unicode_flags.html)
 * [Unicode Luna](https://unicode-table.com/es/sets/moon/)
-* 
+* [Curl Cookbook](https://catonmat.net/cookbooks/curl)
+* [Online String Tools](https://onlinestringtools.com/)
