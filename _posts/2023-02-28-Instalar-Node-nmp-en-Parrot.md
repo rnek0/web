@@ -25,7 +25,7 @@ Codename:	ara
 ### 1. Instalación de nvm :  
 
 La instalacion con el script es simple  
-```curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash```
+> ```curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash```
 
 ```bash
 rnek0$curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash

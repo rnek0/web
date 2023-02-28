@@ -17,6 +17,7 @@ permalink: /enlaces/
 
 #### C
 * 🐇 &nbsp;&nbsp;&nbsp; [The GNU C Reference Manual](https://www.gnu.org/software/gnu-c-manual/gnu-c-manual.html)
+* 🇬🇧 &nbsp;&nbsp;&nbsp; [GDB Tutorial](http://www.gdbtutorial.com/tutorial/commands)
 * 🇬🇧 &nbsp;&nbsp;&nbsp; [Understanding pointers - Drew DeVault's blog](https://drewdevault.com/2016/05/28/Understanding-pointers.html)
 * 🇫🇷 &nbsp;&nbsp;&nbsp; [Programmation en langage C - Anne Canteaut](https://www.rocq.inria.fr/secret/Anne.Canteaut/COURS_C/)
 * 🇫🇷 &nbsp;&nbsp;&nbsp; [Tutoriel : La programmation système en C sous Unix](http://sdz.tdct.org/sdz/la-programmation-systeme-en-c-sous-unix.html)
