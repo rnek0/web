@@ -269,9 +269,17 @@ uranus# systemctl status systemd-resolved
              https://www.freedesktop.org/wiki/Software/systemd/writing-resolver-clients
 ```
 
-Por otra parte, si no teneis resolucion DNS haciendo un ```ping -c1 google.com``` teneis que habrir el fichero ```/etc/resolv.conf``` y poner dentro una linea con nameserver ip del resolver :
+Si no teneis resolucion DNS haciendo un ```ping -c1 google.com``` o al abrir el navegador teneis que habrir el fichero ```/etc/resolv.conf``` y cambiar las ip del resolver :
 
-```
+&nbsp;
+### !!! Atencion con el conflicto de openvpn o otros programas que sobreescriben el resolv.conf
+&nbsp;
+
+Creo haber identificado el problema de la perdida de los dns en /etc/resolv.conf : ver en <https://wiki.archlinux.org/title/OpenVPN#Route_configuration_fails_with_systemd-networkd> , efectivamente cuando me connecto con openvpn a Hackthebox se produce igualmente el mismo comportamiento.
+
+En este ejemplo ponemos el nameserver de nuestro enrutador local el cual se encargara de hacer las peticiones a tu ISP (internet service provider), pero mas abajo tenemos un script que opera con los resolvers de cloudflare o google o otros segun el orden de escritura.
+
+```bash
 └╼rnek0$cat /etc/resolv.conf
 ───────┬─────────────────────────────
        │ File: /etc/resolv.conf
@@ -280,7 +288,7 @@ Por otra parte, si no teneis resolucion DNS haciendo un ```ping -c1 google.com``
 ───────┴─────────────────────────────
 ```
 
-**Como saber que no tienes resolucion de dns ?** pues pingueas una ip externa y si te lo devuelve tienes acceso a la red externa pero si con el nombre de dominio no te lo devuelve pues ya lo sabes. Una alternativa es abrir tu navegador internet y hacer una peticion de cualquiera, [como esta por ejemplo](https://web.lunarviews.net "El blog del rnek0 :D").
+**Como saber que no tienes resolucion de dns ?** pues pingueas una ip externa y si te lo devuelve tienes acceso a la red externa pero si con el nombre de dominio no te lo devuelve pues ya lo sabes. Una alternativa es abrir tu navegador internet y hacer una peticion, sea la que sea; [como esta por ejemplo](https://web.lunarviews.net "El blog del rnek0 :D").
 
 Aparentemente cuando se establece la conexion con la resolución dns del systemd-resolved el fichero de resolución se sobreescribe, he hecho pues otro script para lanzarlo despues de **la co** (*leelo atentivamente antes de ejecutar*) :
 
@@ -348,6 +356,8 @@ Una **co** Ethernet sin **NetworkManager** personalizada.
 
 > Pregunta: que hay del arranque ?
 
-Eso tambien se puede automatizar y para ello mas adelante veremos la creacion de scripts systemd. Asi puedes poner el de la **co** en el arranque del systèma.
+Eso tambien se puede automatizar y para ello mas adelante veremos la creacion de scripts systemd. Asi puedes poner el de la **co** en el arranque del systéma.
 
-Et voila !
+Esperando que esta humilde contribucion os haya aprendido un poco algo, o dado ganas de curiosear y aprender al respecto.
+
+Happy hacking !
