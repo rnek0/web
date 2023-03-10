@@ -21,7 +21,7 @@ Primero instalo la extensión para cambiar el idioma del editor.
 
 [Spanish Language Pack for Visual Studio Code](https://github.com/microsoft/vscode-loc), para otros idiomas ver [aquí](https://marketplace.visualstudio.com/search?target=VSCode&category=Language%20Packs&sortBy=Installs)
 
-![El Pack](/_site/assets/idiomas/Es-Language-Pack.png)  
+![El Pack](/assets/idiomas/Es-Language-Pack.png)  
 Sus instrucciones de uso son bastante claras, he aquí algunas imágenes para ir mas rápido.
 
 &nbsp;
