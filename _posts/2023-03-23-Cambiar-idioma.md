@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Como cambiar el idioma en VSCodium"
-date:   2023-03-23 14:46:44 +0100
+date:   2023-03-10 14:46:44 +0100
 categories: espanol idioma 
 author: "by rnek0"
 lang: "es"
@@ -52,11 +52,11 @@ Ahora, para la corrección ortográfica.
 
 Cuando quiero hacer una corrección me situó con el cursor encima de la palabra, le doy a la tecla del **menu contextual** (la tecla que esta entre win y ctrl derecho) , **s** para que entre en Spelling suggestions + **enter**.
 
-![Spelling](../_site/assets/idiomas/es-spelling.png)
+![Spelling](/assets/idiomas/es-spelling.png)
 
 > Selecciono la mejor opción para la corrección.
 
-![Corrección](../_site/assets/idiomas/es-spelling-choice.png)
+![Corrección](/assets/idiomas/es-spelling-choice.png)
 
 > Si no se reconoce la palabra se puede agregar a su diccionario  
 > como lo harías con **Open Office** o otras suites ofimáticas.
