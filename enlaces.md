@@ -3,12 +3,17 @@ layout: post
 title: Enlaces
 permalink: /enlaces/
 ---
+
+
+<a href="#Coding">[Coding]</a> - <a href="#Pentesting">[Pentesting]</a> - <a href="#Reversing">[Reversing]</a> - <a href="#Tools">[Tools]</a> - <a href="#Varios">[Varios]</a>
+
 [![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Despierta... Estas en la Matrix;Sigue al conejo blanco... 🐇)](https://git.io/typing-svg)
 
 
+<a id="Coding"></a>
 ## Coding
 ---
-&nbsp;
+<div style="text-align: right;"><a href="#" >up &uarr;</a>&nbsp;</div>
 
 #### ASM
 * 🇬🇧 &nbsp;&nbsp;&nbsp; [NASM Assembly Language Tutorials - asmtutor.com](https://asmtutor.com/)
@@ -43,9 +48,12 @@ permalink: /enlaces/
 * <img src="/assets/favi-youtube.png" with="18" height="18" alt="on youtube" /> 🇪🇸 &nbsp;&nbsp;&nbsp; [**makigas** Curso de TypeScript 4.9](https://www.youtube.com/watch?v=-iwfkS8tVxE&list=PLTd5ehIj0goPbPaN9VEoQQVUwZN2eXdB5)  
 * 🇬🇧 &nbsp;&nbsp;&nbsp; [TypeScript Documentation](https://www.typescriptlang.org/docs/)
 
+&nbsp;
+
+<a id="Pentesting"></a>
 ## Pentesting
 ---
-&nbsp;
+<div style="text-align: right;"><a href="#" >up &uarr;</a>&nbsp;</div>
 
 - 🇬🇧 &nbsp;&nbsp;&nbsp; [Hack The Box](https://app.hackthebox.com/)
     - &nbsp;&nbsp;[HTB Academy](https://academy.hackthebox.com/)
@@ -56,30 +64,47 @@ permalink: /enlaces/
 - 🇬🇧 &nbsp;&nbsp;&nbsp; [Vulnhub](https://vulnhub.com/)
 - 🇬🇧 &nbsp;&nbsp;&nbsp; [WSA](https://portswigger.net/web-security) *Web Security Academy: Free Online Training from PortSwigger*
     - &nbsp;&nbsp;<https://portswigger.net/web-security/sql-injection>
-...
 
+&nbsp;
+
+<a id="Reversing"></a>
 ## Reversing
 ---
-&nbsp;
+<div style="text-align: right;"><a href="#" >up &uarr;</a>&nbsp;</div>
 
 * <img src="/assets/github-mark-white.svg" with="18" height="18" alt="on github" /> [radare2](https://github.com/radareorg/radare2/blob/master/README.md)
 * 🌐 [🐇 Reverse Engineering for Beginners](https://beginners.re/)
 * [**LiveOverflow** Channel](https://www.youtube.com/watch?v=iyAyN3GFM7A&list=PLhixgUqwRTjxglIswKp9mpkfPNfHkzyeN&index=1)
 * [Overview - CTF 101](https://ctf101.org/reverse-engineering/overview/)
 
-
-## Tools
----
 &nbsp;
 
-* [Guide de référence Nmap (Man Page, French translation)](https://nmap.org/man/fr/index.html)
+<a id="Tools"></a>
+## Tools & Books
+---
+<div style="text-align: right;"><a href="#" >up &uarr;</a>&nbsp;</div>
 
+* [Guide de référence Nmap (Man Page, French translation)](https://nmap.org/man/fr/index.html)
+* [Docker sur devopssec (French)](https://devopssec.fr/article/fonctionnement-manipulation-reseau-docker)
+* [Pro Git, Segunda Edición, Español.](https://github.com/progit/progit2-es)
+
+&nbsp;
+
+<a id="Varios"></a>
 ## Varios
+---
+<div style="text-align: right;"><a href="#" >up &uarr;</a>&nbsp;</div>
 
 * <img src="/assets/favi-twitch.png" with="18" height="18" alt="on github" /> [https://www.twitch.tv/s4vitaar](https://www.twitch.tv/s4vitaar)
+* <img src="/assets/favi-twitch.png" with="18" height="18" alt="on github" /> [https://www.twitch.tv/txhaka](https://www.twitch.tv/txhaka)
+* <img src="/assets/favi-twitch.png" with="18" height="18" alt="on github" /> [https://www.twitch.tv/securiters](https://www.twitch.tv/securiters)
+* <img src="/assets/favi-twitch.png" with="18" height="18" alt="on github" /> [https://www.twitch.tv/khaos_farbauti](https://www.twitch.tv/khaos_farbauti)
 * [Thank's DenverCoder1 & friends](https://github.com/DenverCoder1/readme-typing-svg)
 * [rnek0 dotfiles on Sourcehut](https://git.sr.ht/~rnek0/dotfiles)
 * [Unicode Flags](http://xahlee.info/comp/unicode_flags.html)
 * [Unicode Luna](https://unicode-table.com/es/sets/moon/)
 * [Curl Cookbook](https://catonmat.net/cookbooks/curl)
 * [Online String Tools](https://onlinestringtools.com/)
+* [VirtualBox UserManual-fr_FR](http://download.virtualbox.org/virtualbox/UserManual_fr_FR.pdf)
+* [Pro Git book](https://git-scm.com/book/es/v2)
+
