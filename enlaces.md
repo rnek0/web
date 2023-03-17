@@ -84,8 +84,8 @@ permalink: /enlaces/
 ---
 <div style="text-align: right;"><a href="#" >up &uarr;</a>&nbsp;</div>
 
-* [Guide de référence Nmap (Man Page, French translation)](https://nmap.org/man/fr/index.html)
-* [Docker sur devopssec (French)](https://devopssec.fr/article/fonctionnement-manipulation-reseau-docker)
+* 🌐 [Guide de référence Nmap (Man Page, French translation)](https://nmap.org/man/fr/index.html)
+* 🌐 [Docker sur devopssec (French)](https://devopssec.fr/article/fonctionnement-manipulation-reseau-docker)
 * [Pro Git, Segunda Edición, Español.](https://github.com/progit/progit2-es)
 
 &nbsp;
@@ -95,16 +95,20 @@ permalink: /enlaces/
 ---
 <div style="text-align: right;"><a href="#" >up &uarr;</a>&nbsp;</div>
 
+* <img src="/assets/favi-youtube.png" with="18" height="18" alt="on youtube" /> **[♤ ʂąƖɬıოცąŋƙ ♤ ](https://www.youtube.com/watch?v=yoeJrMUss04&list=PLOscZe227eyWP4C0e_C-eZGBkwITW5X9m&index=1)** - <img src="/assets/odysee.png" with="18" height="18" alt="on github" /> [odysee](https://odysee.com/@SaltinBanK:d)
+* <img src="/assets/odysee.png" with="18" height="18" alt="on github" /> [Hackerñol](https://odysee.com/@Hackernol:7)
+* 🌐 [Hispagatos](https://hispagatos.org/)
 * <img src="/assets/favi-twitch.png" with="18" height="18" alt="on github" /> [https://www.twitch.tv/s4vitaar](https://www.twitch.tv/s4vitaar)
 * <img src="/assets/favi-twitch.png" with="18" height="18" alt="on github" /> [https://www.twitch.tv/txhaka](https://www.twitch.tv/txhaka)
 * <img src="/assets/favi-twitch.png" with="18" height="18" alt="on github" /> [https://www.twitch.tv/securiters](https://www.twitch.tv/securiters)
 * <img src="/assets/favi-twitch.png" with="18" height="18" alt="on github" /> [https://www.twitch.tv/khaos_farbauti](https://www.twitch.tv/khaos_farbauti)
-* [Thank's DenverCoder1 & friends](https://github.com/DenverCoder1/readme-typing-svg)
-* [rnek0 dotfiles on Sourcehut](https://git.sr.ht/~rnek0/dotfiles)
-* [Unicode Flags](http://xahlee.info/comp/unicode_flags.html)
-* [Unicode Luna](https://unicode-table.com/es/sets/moon/)
-* [Curl Cookbook](https://catonmat.net/cookbooks/curl)
-* [Online String Tools](https://onlinestringtools.com/)
-* [VirtualBox UserManual-fr_FR](http://download.virtualbox.org/virtualbox/UserManual_fr_FR.pdf)
-* [Pro Git book](https://git-scm.com/book/es/v2)
+
+* 🌐  [Thank's DenverCoder1 & friends](https://github.com/DenverCoder1/readme-typing-svg)
+* 🌐  [rnek0 dotfiles on Sourcehut](https://git.sr.ht/~rnek0/dotfiles)
+* 🌐  [Unicode Flags](http://xahlee.info/comp/unicode_flags.html)
+* 🌐  [Unicode Luna](https://unicode-table.com/es/sets/moon/)
+* 🌐  [Curl Cookbook](https://catonmat.net/cookbooks/curl)
+* 🌐  [Online String Tools](https://onlinestringtools.com/)
+* 🌐  [VirtualBox UserManual-fr_FR](http://download.virtualbox.org/virtualbox/UserManual_fr_FR.pdf)
+* 🌐  [Pro Git book](https://git-scm.com/book/es/v2)
 
