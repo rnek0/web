@@ -19,6 +19,7 @@ permalink: /enlaces/
 * 🇬🇧 &nbsp;&nbsp;&nbsp; [NASM Assembly Language Tutorials - asmtutor.com](https://asmtutor.com/)
 * 🇬🇧 &nbsp;&nbsp;&nbsp; [How to Read Assembly Language - Scott Wolchok](https://wolchok.org/posts/how-to-read-assembly-language/)
 * 🇫🇷 &nbsp;&nbsp;&nbsp; [Liste des registres](https://asm.developpez.com/intro/index.php#LIII)
+* <img src="/assets/flag-jp.png" with="18" height="18" alt="on https://hack.jp" /> &nbsp; [Compile msgbox.asm with Visual Studio 2022](https://hack.jp/461/)
 
 #### C
 * 🐇 &nbsp;&nbsp;&nbsp; [The GNU C Reference Manual](https://www.gnu.org/software/gnu-c-manual/gnu-c-manual.html)
@@ -36,10 +37,11 @@ permalink: /enlaces/
 #### Go
 * 🇬🇧 &nbsp;&nbsp;&nbsp; [The Go Blog](https://go.dev/blog/all)
 * 🇬🇧 &nbsp;&nbsp;&nbsp; [Quick Start - Hugo](https://gohugo.io/getting-started/quick-start/)
-  
+* 🇬🇧 &nbsp;&nbsp;&nbsp; [Chroma playground - Hugo](https://swapoff.org/chroma/playground/)
+
 #### C#
 * <img src="/assets/favi-youtube.png" with="18" height="18" alt="on youtube" /> 🇲🇽 &nbsp;&nbsp;&nbsp; [**TI Capacitación**](https://www.youtube.com/@CanalTICapacitacion)
-* <img src="/assets/favi-youtube.png" with="18" height="18" alt="on youtube" /> 🇪🇸 &nbsp;&nbsp;&nbsp; [**Julio Ureña** - Introducción - Process Injection](https://www.youtube.com/watch?v=cZBTAzC6qpg&list=PLXm1FM6zsxpBt7vZiS9Q4-4nvybd9il3t)
+* <img src="/assets/favi-youtube.png" with="18" height="18" alt="on youtube" /> <img src="/assets/flag-es.png" with="18" height="18" alt="on youtube" /> &nbsp;&nbsp; [**Julio Ureña** - Introducción - Process Injection](https://www.youtube.com/watch?v=cZBTAzC6qpg&list=PLXm1FM6zsxpBt7vZiS9Q4-4nvybd9il3t)
 
 #### HTML
 * [Structuring the web with HTML - Learn web development with **MDN**](https://developer.mozilla.org/en-US/docs/Learn/HTML)
@@ -84,9 +86,12 @@ permalink: /enlaces/
 ---
 <div style="text-align: right;"><a href="#" >up &uarr;</a>&nbsp;</div>
 
+* <img src="/assets/archlinux.svg" with="18" height="18" alt="Archlinux" /> [Archlinux](https://archlinux.org)
+* <img src="/assets/parrot22.png" with="18" height="18" alt="Archlinux" /> [Parrotsec](https://www.parrotsec.org/)
 * 🌐 [Guide de référence Nmap (Man Page, French translation)](https://nmap.org/man/fr/index.html)
 * 🌐 [Docker sur devopssec (French)](https://devopssec.fr/article/fonctionnement-manipulation-reseau-docker)
-* [Pro Git, Segunda Edición, Español.](https://github.com/progit/progit2-es)
+* 🌐 [Pro Git, Segunda Edición, Español.](https://github.com/progit/progit2-es)
+* 
 
 &nbsp;
 
@@ -104,7 +109,8 @@ permalink: /enlaces/
 * <img src="/assets/favi-twitch.png" with="18" height="18" alt="on github" /> [https://www.twitch.tv/khaos_farbauti](https://www.twitch.tv/khaos_farbauti)
 
 * 🌐  [Thank's DenverCoder1 & friends](https://github.com/DenverCoder1/readme-typing-svg)
-* 🌐  [rnek0 dotfiles on Sourcehut](https://git.sr.ht/~rnek0/dotfiles)
+*  <img src="/assets/sr-ht.png" with="18" height="18" alt="Archlinux" /> [rnek0 dotfiles on Sourcehut](https://git.sr.ht/~rnek0/dotfiles)
+*  <img src="/assets/sr-ht.png" with="18" height="18" alt="Archlinux" /> [rnek0 Go blog on Sourcehut](https://rnek0.srht.site/)
 * 🌐  [Unicode Flags](http://xahlee.info/comp/unicode_flags.html)
 * 🌐  [Unicode Luna](https://unicode-table.com/es/sets/moon/)
 * 🌐  [Curl Cookbook](https://catonmat.net/cookbooks/curl)
