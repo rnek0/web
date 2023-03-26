@@ -30,6 +30,11 @@ permalink: /enlaces/
 * 🇫🇷 &nbsp;&nbsp;&nbsp; [Les sockets en C](https://broux.developpez.com/articles/c/sockets/)
 * <img src="/assets/favi-youtube.png" with="18" height="18" alt="on youtube" /> 🇫🇷 &nbsp;&nbsp;&nbsp; [Bjornulf Frode](https://www.youtube.com/@bjornulf2011/playlists)
 
+
+#### Rust
+* 🐇 &nbsp; [The Rust Programming Language](https://doc.rust-lang.org/book/)
+* 🇬🇧 &nbsp; [mdBook Documentation](https://rust-lang.github.io/mdBook/index.html)
+
 #### C++
 * <img src="/assets/favi-youtube.png" with="18" height="18" alt="on youtube" /> 🇪🇸 &nbsp;&nbsp;&nbsp; [**Pauek** & Asteroids](https://www.youtube.com/watch?v=HCWghQtxlos&list=PLDD6B727E5B6B5E33)
 * <img src="/assets/favi-youtube.png" with="18" height="18" alt="on youtube" /> 🇪🇸 &nbsp;&nbsp;&nbsp; [**deividcoptero** & Space Invaders C++/Allegro](https://www.youtube.com/playlist?list=PL6hPvfzEEMDZ4PSkN-5Zj_0-YVO7b0OgC)
@@ -78,6 +83,7 @@ permalink: /enlaces/
 * 🌐 [🐇 Reverse Engineering for Beginners](https://beginners.re/)
 * [**LiveOverflow** Channel](https://www.youtube.com/watch?v=iyAyN3GFM7A&list=PLhixgUqwRTjxglIswKp9mpkfPNfHkzyeN&index=1)
 * [Overview - CTF 101](https://ctf101.org/reverse-engineering/overview/)
+* [CursoReversing desde cero con x64dbg](https://www.youtube.com/watch?v=Af5pvCl0CBE&list=PLn__CHOEZR1Ymxi2n4Q9G9I9kBYr6B4Ft)
 
 &nbsp;
 
@@ -117,4 +123,11 @@ permalink: /enlaces/
 * 🌐  [Online String Tools](https://onlinestringtools.com/)
 * 🌐  [VirtualBox UserManual-fr_FR](http://download.virtualbox.org/virtualbox/UserManual_fr_FR.pdf)
 * 🌐  [Pro Git book](https://git-scm.com/book/es/v2)
+
+---
+
+&nbsp;
+
+* [Don't click here 1 : jekyll tests](http://127.0.0.1:4000/)
+* [Don't click here 2 : hugo   tests](http://localhost:1313/)
 
