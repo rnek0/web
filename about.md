@@ -6,11 +6,14 @@ permalink: /about/
 
 [![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Despierta... Estas en la Matrix;Sigue al conejo blanco... 🐇)](https://git.io/typing-svg)
 
-![Moi et neko](assets/tony&neko.png)
+![Moi et neko](assets/tony&neko.jpg)
 
-¡Hey!, aqui estamos ;) 
+¡Hey!, aquí estamos ;) 
 
 Tony y Neko, los dos webmasters asociados en est increíble proyecto. Vamos juntando bits poco a poco y quien sabe a donde llegaremos...
+
+Aquí el otro dia de vacaciones en el jardín de la chabola, el Neko salio corriendo con la zanahoria.  
+En la foto no se vé bien con su amigo el conejo blanco pero les aseguro que la carrera fué espectacular. Bueno el que quiera mas precisiones, git clone y buscar el commit con la foto, o sino vas al pajarraco azul y click derecho, bueno ya sabes.
 
 &nbsp;
 
