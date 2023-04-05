@@ -54,6 +54,7 @@ permalink: /enlaces/
 #### TypeScript
 * <img src="/assets/favi-youtube.png" with="18" height="18" alt="on youtube" /> 🇪🇸 &nbsp;&nbsp;&nbsp; [**makigas** Curso de TypeScript 4.9](https://www.youtube.com/watch?v=-iwfkS8tVxE&list=PLTd5ehIj0goPbPaN9VEoQQVUwZN2eXdB5)  
 * 🇬🇧 &nbsp;&nbsp;&nbsp; [TypeScript Documentation](https://www.typescriptlang.org/docs/)
+* 🇫🇷 &nbsp;&nbsp;&nbsp; [Mes revisions sur TypeScript avec Jupyter](https://github.com/rnek0/TSbook)
 
 &nbsp;
 
