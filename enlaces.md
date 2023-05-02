@@ -20,6 +20,7 @@ permalink: /enlaces/
 * 🇬🇧 &nbsp;&nbsp;&nbsp; [How to Read Assembly Language - Scott Wolchok](https://wolchok.org/posts/how-to-read-assembly-language/)
 * 🇫🇷 &nbsp;&nbsp;&nbsp; [Liste des registres](https://asm.developpez.com/intro/index.php#LIII)
 * <img src="/assets/flag-jp.png" with="18" height="18" alt="on https://hack.jp" /> &nbsp; [Compile msgbox.asm with Visual Studio 2022](https://hack.jp/461/)
+* <img src="/assets/favi-youtube.png" with="18" height="18" alt="on youtube" /> 🇫🇷 &nbsp;&nbsp;&nbsp; [Introduction à l'assembleur x86 par HackingIsland](https://www.youtube.com/watch?v=tmtXn2UXR3g&list=PLJm4t7V852mN-Mv38ipWa8AEiKXfzZECV&index=31)
 
 #### C
 * 🐇 &nbsp;&nbsp;&nbsp; [The GNU C Reference Manual](https://www.gnu.org/software/gnu-c-manual/gnu-c-manual.html)
@@ -43,6 +44,9 @@ permalink: /enlaces/
 * 🇬🇧 &nbsp;&nbsp;&nbsp; [The Go Blog](https://go.dev/blog/all)
 * 🇬🇧 &nbsp;&nbsp;&nbsp; [Quick Start - Hugo](https://gohugo.io/getting-started/quick-start/)
 * 🇬🇧 &nbsp;&nbsp;&nbsp; [Chroma playground - Hugo](https://swapoff.org/chroma/playground/)
+
+#### Python
+* 🇬🇧 &nbsp;&nbsp;&nbsp; [Scapy in 0x30 Minutes](https://guedou.github.io/talks/2022_GreHack/Scapy%20in%200x30%20minutes.slides.html#/)
 
 #### C#
 * <img src="/assets/favi-youtube.png" with="18" height="18" alt="on youtube" /> 🇲🇽 &nbsp;&nbsp;&nbsp; [**TI Capacitación**](https://www.youtube.com/@CanalTICapacitacion)
@@ -114,6 +118,8 @@ permalink: /enlaces/
 * <img src="/assets/favi-twitch.png" with="18" height="18" alt="on github" /> [https://www.twitch.tv/txhaka](https://www.twitch.tv/txhaka)
 * <img src="/assets/favi-twitch.png" with="18" height="18" alt="on github" /> [https://www.twitch.tv/securiters](https://www.twitch.tv/securiters)
 * <img src="/assets/favi-twitch.png" with="18" height="18" alt="on github" /> [https://www.twitch.tv/khaos_farbauti](https://www.twitch.tv/khaos_farbauti)
+* <img src="/assets/favi-youtube.png" with="18" height="18" alt="on youtube" /> [Les Tutos de Processus](https://www.youtube.com/channel/UCqrxDV9EPOlI1YMhzIPed2g)  
+* <img src="/assets/favi-youtube.png" with="18" height="18" alt="on youtube" /> [Waked XY ](https://www.youtube.com/@wakedxy)
 
 * 🌐  [Thank's DenverCoder1 & friends](https://github.com/DenverCoder1/readme-typing-svg)
 *  <img src="/assets/sr-ht.png" with="18" height="18" alt="Archlinux" /> [rnek0 dotfiles on Sourcehut](https://git.sr.ht/~rnek0/dotfiles)
