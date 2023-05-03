@@ -5,6 +5,7 @@ date:   2023-03-10 14:46:44 +0100
 categories: espanol idioma 
 author: "by rnek0"
 lang: "es"
+permalink: "/idioma/"
 ---
 
 # Cómo cambiar el idioma en VSCodium

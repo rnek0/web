@@ -5,6 +5,7 @@ date:   2017-12-25 19:22:14 +0100
 categories: jekyll Azure
 author: "by rnek0"
 lang: "fr"
+permalink: "/jekyll/azure"
 ---
 # Création de site statique avec Jekill sur Windows 10 et hébergement sur Azure HTML.
 

@@ -5,6 +5,7 @@ date:   2023-02-28 13:30:00 +0100
 categories: Node npm nvm
 author: "by rnek0"
 lang: "es"
+permalink: "/parrot/node"
 ---
 
 Guía rápida sobre cómo instalar la última versión de [Node.js](https://es.wikipedia.org/wiki/Node.js "Node.js en wikipedia") y [npm](https://es.wikipedia.org/wiki/Npm "Npm en wikipedia") en Parrot.  

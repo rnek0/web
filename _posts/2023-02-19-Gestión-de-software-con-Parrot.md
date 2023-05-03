@@ -5,6 +5,7 @@ date:   2023-02-20 17:36:44 +0100
 categories: Parrot apt
 author: "by rnek0"
 lang: "es"
+permalink: "/parrot/apt"
 ---
 
 # Gestión de software con Parrot 

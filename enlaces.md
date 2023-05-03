@@ -130,11 +130,12 @@ permalink: /enlaces/
 * 🌐  [Online String Tools](https://onlinestringtools.com/)
 * 🌐  [VirtualBox UserManual-fr_FR](http://download.virtualbox.org/virtualbox/UserManual_fr_FR.pdf)
 * 🌐  [Pro Git book](https://git-scm.com/book/es/v2)
-
+* 🌐  [OWASP Secure Coding Practices-Quick Reference Guide](https://owasp.org/www-project-secure-coding-practices-quick-reference-guide/#div-download)
 ---
 
 &nbsp;
 
 * [Don't click here 1 : jekyll tests](http://127.0.0.1:4000/)
 * [Don't click here 2 : hugo   tests](http://localhost:1313/)
+* [Don't click here 2 : mkdocs tests](http://127.0.0.1:8000/lunarDocs/)
 

@@ -5,6 +5,7 @@ date:   2023-02-11 00:14:44 +0100
 categories: gnu linux
 author: "by rnek0"
 lang: "fr"
+permalink: "/htb/Validation"
 ---
 
 # Machine Validation - htb

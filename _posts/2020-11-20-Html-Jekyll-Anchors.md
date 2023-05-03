@@ -5,6 +5,7 @@ date:   2020-11-20 15:14:44 +0100
 categories: Markdown Anchors
 author: "by rnek0"
 lang: "es"
+permalink: "/chuletas/anchors"
 ---
 
 # Anchors links
