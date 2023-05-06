@@ -24,7 +24,9 @@ El entorno en el que esto esta hecho es una distribución Gnu-Linux [**Parrot**]
 
 Al principio la maquina virtual fue creada con WMware en windows y mas tarde exportada a VirtualBox en Archlinux.
 
-Aqui teneis las etapas para conseguirlo. Manos a la obra...
+Aqui teneis las etapas para conseguirlo(*). Manos a la obra...
+
+> *Si prefieres solo poner 2 lineas en el /home/${USER}/.config/sxhkd/sxhkdrc* ver [aqui]({{ . }}#Comentarios+finales "2 lineas")
 
 ---
 <br>
@@ -129,8 +131,16 @@ No olvides el man de bspwm, xbindkeys y flameshot.
 
 
 <br>
-
+<a name="Comentarios+finales"></a>
 ### Comentarios finales
+
+Si lo quieres hacer solo con [**sxhkd**](https://wiki.archlinux.org/title/Sxhkd) debes poner estas lineas en el **/home/${USER}/.config/sxhkd/sxhkdrc** :
+
+```bash
+# Print screen
+Print
+        flameshot gui &>/dev/null & disown
+```
 
 Despues del primer arranque de flameshot, este queda en funcionamiento como se puede apreciar con este commando.  
 Si lo quieres cerrar pues le haces un kill.
