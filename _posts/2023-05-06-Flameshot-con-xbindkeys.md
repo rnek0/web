@@ -26,7 +26,7 @@ Al principio la maquina virtual fue creada con WMware en windows y mas tarde exp
 
 Aqui teneis las etapas para conseguirlo(*). Manos a la obra...
 
-> *Si prefieres solo poner 2 lineas en el /home/${USER}/.config/sxhkd/sxhkdrc* ver [aqui]({{ . }}#Comentarios+finales "2 lineas")
+> \* Si prefieres solo poner 2 lineas en el /home/${USER}/.config/sxhkd/sxhkdrc* ver [aqui]({{ . }}#Comentarios+finales "2 lineas")
 
 ---
 <br>
