@@ -2,7 +2,7 @@
 layout: post
 title:  "Instalar Node y npm con nvm en Parrot"
 date:   2023-02-28 13:30:00 +0100
-categories: Node npm nvm
+categories: Node npm nvm Parrot
 author: "by rnek0"
 lang: "es"
 permalink: "/parrot/node"
