@@ -6,7 +6,7 @@ permalink: /about/
 
 [![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Despierta... Estas en la Matrix;Sigue al conejo blanco... 🐇)](https://git.io/typing-svg)
 
-![Moi et neko](assets/tony&neko.jpg)
+![Moi et neko](./assets/tony_neko.jpg)
 
 ¡Hey!, aquí estamos ;) 
 
