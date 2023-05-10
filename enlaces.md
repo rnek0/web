@@ -131,6 +131,7 @@ permalink: /enlaces/
 * 🌐  [VirtualBox UserManual-fr_FR](http://download.virtualbox.org/virtualbox/UserManual_fr_FR.pdf)
 * 🌐  [Pro Git book](https://git-scm.com/book/es/v2)
 * 🌐  [OWASP Secure Coding Practices-Quick Reference Guide](https://owasp.org/www-project-secure-coding-practices-quick-reference-guide/#div-download)
+* 🌐  [pictogrammers](https://pictogrammers.com/library/mdil/)
 ---
 
 &nbsp;
