@@ -25,6 +25,7 @@ permalink: /enlaces/
 #### C
 * 🐇 &nbsp;&nbsp;&nbsp; [The GNU C Reference Manual](https://www.gnu.org/software/gnu-c-manual/gnu-c-manual.html)
 * 🇬🇧 &nbsp;&nbsp;&nbsp; [GDB Tutorial](http://www.gdbtutorial.com/tutorial/commands)
+* 🐇 [GNU make](https://www.gnu.org/software/make/manual/html_node/index.html)
 * 🇬🇧 &nbsp;&nbsp;&nbsp; [Understanding pointers - Drew DeVault's blog](https://drewdevault.com/2016/05/28/Understanding-pointers.html)
 * 🇫🇷 &nbsp;&nbsp;&nbsp; [Programmation en langage C - Anne Canteaut](https://www.rocq.inria.fr/secret/Anne.Canteaut/COURS_C/)
 * 🇫🇷 &nbsp;&nbsp;&nbsp; [Tutoriel : La programmation système en C sous Unix](http://sdz.tdct.org/sdz/la-programmation-systeme-en-c-sous-unix.html)
@@ -119,9 +120,11 @@ permalink: /enlaces/
 * <img src="/assets/favi-twitch.png" with="18" height="18" alt="on github" /> [https://www.twitch.tv/s4vitaar](https://www.twitch.tv/s4vitaar)
 * <img src="/assets/favi-twitch.png" with="18" height="18" alt="on github" /> [https://www.twitch.tv/txhaka](https://www.twitch.tv/txhaka)
 * <img src="/assets/favi-twitch.png" with="18" height="18" alt="on github" /> [https://www.twitch.tv/securiters](https://www.twitch.tv/securiters)
-* <img src="/assets/favi-twitch.png" with="18" height="18" alt="on github" /> [https://www.twitch.tv/khaos_farbauti](https://www.twitch.tv/khaos_farbauti)
+* <img src="/assets/favi-twitch.png" with="18" height="18" alt="on github" /> [https://www.twitch.tv/khaos_farbauti](https://www.twitch.tv/khaos_farbauti) <img src="/assets/favi-youtube.png" with="18" height="18" alt="on youtube" /> [
+Khaos Farbauti Ibn Oblivion](https://www.youtube.com/channel/UCsRIv1fsbnQRIPKmUQbRzZg)
 * <img src="/assets/favi-youtube.png" with="18" height="18" alt="on youtube" /> [Les Tutos de Processus](https://www.youtube.com/channel/UCqrxDV9EPOlI1YMhzIPed2g)  
 * <img src="/assets/favi-youtube.png" with="18" height="18" alt="on youtube" /> [Waked XY ](https://www.youtube.com/@wakedxy)
+* <img src="/assets/favi-youtube.png" with="18" height="18" alt="on youtube" /> [Hafnium - Sécurité informatique](https://www.youtube.com/@HafniumSecuriteInformatique)
 
 * 🌐  [Thank's DenverCoder1 & friends](https://github.com/DenverCoder1/readme-typing-svg)
 *  <img src="/assets/sr-ht.png" with="18" height="18" alt="Archlinux" /> [rnek0 dotfiles on Sourcehut](https://git.sr.ht/~rnek0/dotfiles)
