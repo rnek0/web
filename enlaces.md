@@ -25,7 +25,7 @@ permalink: /enlaces/
 #### C
 * 🐇 &nbsp;&nbsp;&nbsp; [The GNU C Reference Manual](https://www.gnu.org/software/gnu-c-manual/gnu-c-manual.html)
 * 🇬🇧 &nbsp;&nbsp;&nbsp; [GDB Tutorial](http://www.gdbtutorial.com/tutorial/commands)
-* 🐇 [GNU make](https://www.gnu.org/software/make/manual/html_node/index.html)
+* 🐇 &nbsp;&nbsp;&nbsp; [GNU make](https://www.gnu.org/software/make/manual/html_node/index.html)
 * 🇬🇧 &nbsp;&nbsp;&nbsp; [Understanding pointers - Drew DeVault's blog](https://drewdevault.com/2016/05/28/Understanding-pointers.html)
 * 🇫🇷 &nbsp;&nbsp;&nbsp; [Programmation en langage C - Anne Canteaut](https://www.rocq.inria.fr/secret/Anne.Canteaut/COURS_C/)
 * 🇫🇷 &nbsp;&nbsp;&nbsp; [Tutoriel : La programmation système en C sous Unix](http://sdz.tdct.org/sdz/la-programmation-systeme-en-c-sous-unix.html)
@@ -63,6 +63,12 @@ permalink: /enlaces/
 
 &nbsp;
 
+#### ActivityPub
+* 🇬🇧 &nbsp;&nbsp; <a href="https://socialhub.activitypub.rocks/t/guide-for-new-activitypub-implementers/479/1" alt="Guide for new ActivityPub implementers" target="_blank">Guide for new ActivityPub implementers</a>
+* 🇬🇧 &nbsp;&nbsp; [JSON-LD 1.1 / A JSON-based Serialization for Linked Data](https://www.w3.org/TR/json-ld/#introduction)
+* 🇬🇧 &nbsp;&nbsp; [Activity Streams 2.0](https://www.w3.org/TR/activitystreams-core/)
+
+&nbsp;
 <a id="Pentesting"></a>
 ## Pentesting
 ---
