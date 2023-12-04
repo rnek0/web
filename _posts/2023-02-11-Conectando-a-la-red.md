@@ -16,9 +16,7 @@ mucho más lejos pienso yo, si pasamos por la estación internacional. jajaja
 <a name="la co"></a>
 ## La Red y la co
 <div style="vertical-align: baseline; display: flex; justify-content: center;">
-<!-- Test peertube 6.0.1 without div tag generated from admin interface  -->
-<iframe title="¡Dame la co! - connexión con el comando ip en el terminal" width="100%" height="100%" src="https://ptb.lunarviews.net/videos/embed/7a46ca03-0107-4c2a-b9c0-cd0c0c6f2385" p2p="0" warningTitle="0" peertubeLink="0" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups" style="position: absolute; inset: 0px;"></iframe>
-<!-- <iframe title="¡Dame la co! - connexión con el comando ip en el terminal" src="https://ptb.lunarviews.net/videos/embed/7a46ca03-0107-4c2a-b9c0-cd0c0c6f2385"  allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups" width="560" height="315" frameborder="0"></iframe> -->
+    <iframe title="¡Dame la co! - connexión con el comando ip en el terminal" src="https://ptb.lunarviews.net/videos/embed/7a46ca03-0107-4c2a-b9c0-cd0c0c6f2385"  allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups" width="560" height="315" frameborder="0"></iframe>
 </div>
 > La co ? la conexión a internet claro esta. 
 
