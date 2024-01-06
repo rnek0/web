@@ -17,6 +17,7 @@ source "https://rubygems.org"
 # ¡Feliz Jekylling!
 
 gem "github-pages", "~> 	228", group: :jekyll_plugins
+#gem 'github-pages', group: :jekyll_plugins
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 gem "minima", "~> 2.5"
@@ -62,3 +63,8 @@ gem "jekyll-paginate", "~> 1.1"
 
 # https://rubygems.org/gems/webrick
 gem "webrick", "~> 1.8"
+
+# Install jekyll
+#gem 'jekyll', '>= 3.9.3'
+
+gem 'json', '~> 2.6', '>= 2.6.3'
