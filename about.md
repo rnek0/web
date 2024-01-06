@@ -28,11 +28,13 @@ Soy partidario del [free software](https://www.fsf.org/) porque GNU's Not Unix! 
 
 Puedes suscribirte a la newsletter de la FSF o aportar tu ayuda utilizando este widget :  
 
-<div align="center"><script type="text/javascript">
-this.fsf_widget_size = "normal";
-this.fsf_associate_id = "5543984";
-</script>
-<script type="text/javascript" src="http://www.fsf.org/graphics/widget/global/widget.js"></script></div>
+<div align="center">
+    <script type="text/javascript">
+        this.fsf_widget_size = "normal";
+        this.fsf_associate_id = "5543984";
+    </script>
+    <script type="text/javascript" src="https://static.fsf.org/nosvn/appeal2011/widget.js"></script>
+</div>
 
 &nbsp;
 
