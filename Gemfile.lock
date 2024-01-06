@@ -271,11 +271,11 @@ DEPENDENCIES
   jekyll-feed (~> 0.12)
   jekyll-paginate (~> 1.1)
   json (~> 2.6, >= 2.6.3)
-  minima (~> 2.5)
+  minima (~> 2.5.1)
   tzinfo (>= 1, < 3)
   tzinfo-data
   wdm (~> 0.1.1)
-  webrick (~> 1.8)
+  webrick (~> 1.8, >= 1.8.1)
 
 BUNDLED WITH
    2.5.4

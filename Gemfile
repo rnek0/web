@@ -16,11 +16,10 @@ source "https://rubygems.org"
 #Esto ayudará a asegurar que se está ejecutando la versión adecuada de Jekyll.
 # ¡Feliz Jekylling!
 
-gem "github-pages", "~> 	228", group: :jekyll_plugins
-#gem 'github-pages', group: :jekyll_plugins
+gem "github-pages", "~>  	228", group: :jekyll_plugins
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
-gem "minima", "~> 2.5"
+gem "minima", "~> 2.5.1"
 
 # [en]
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
@@ -62,7 +61,8 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 gem "jekyll-paginate", "~> 1.1"
 
 # https://rubygems.org/gems/webrick
-gem "webrick", "~> 1.8"
+#gem "webrick", "~> 1.8"
+gem 'webrick', '~> 1.8', '>= 1.8.1'
 
 # Install jekyll
 #gem 'jekyll', '>= 3.9.3'
