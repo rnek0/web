@@ -20,7 +20,8 @@ permalink: /enlaces/
 * 🇬🇧 &nbsp;&nbsp;&nbsp; [How to Read Assembly Language - Scott Wolchok](https://wolchok.org/posts/how-to-read-assembly-language/)
 * 🇫🇷 &nbsp;&nbsp;&nbsp; [Liste des registres](https://asm.developpez.com/intro/index.php#LIII)
 * <img src="/assets/flag-jp.png" with="18" height="18" alt="on https://hack.jp" /> &nbsp; [Compile msgbox.asm with Visual Studio 2022](https://hack.jp/461/)
-* <img src="/assets/favi-youtube.png" with="18" height="18" alt="on youtube" /> 🇫🇷 &nbsp;&nbsp;&nbsp; [Introduction à l'assembleur x86 par HackingIsland](https://www.youtube.com/watch?v=tmtXn2UXR3g&list=PLJm4t7V852mN-Mv38ipWa8AEiKXfzZECV&index=31)
+* <img src="/assets/favi-youtube.png" with="18" height="18" alt="on youtube" /> 🇫🇷 &nbsp;&nbsp;&nbsp; [Introduction à l'assembleur x86 par HackingIsland](https://www.youtube.com/watch?v=tmtXn2UXR3g&list=PLJm4t7V852mN-Mv38ipWa8AEiKXfzZECV&index=31)  
+* 🇬🇧 &nbsp;&nbsp;&nbsp; [The Official Radare2 Book](https://book.rada.re/index.html)
 
 #### C
 * 🐇 &nbsp;&nbsp;&nbsp; [The GNU C Reference Manual](https://www.gnu.org/software/gnu-c-manual/gnu-c-manual.html)
