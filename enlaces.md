@@ -92,7 +92,8 @@ permalink: /enlaces/
 ---
 <div style="text-align: right;"><a href="#" >up &uarr;</a>&nbsp;</div>
 
-* <img src="/assets/github-mark-white.svg" with="18" height="18" alt="on github" /> [radare2](https://github.com/radareorg/radare2/blob/master/README.md)
+* <img src="/assets/github-mark-white.svg" with="18" height="18" alt="on github" /> [radare2](https://github.com/radareorg/radare2/blob/master/README.md){:target="_blank"}
+* <img src="/assets/favi-youtube.png" with="18" height="18" alt="on youtube" /> [Radare2 Tutorial 1 'Demon Hacker'](https://www.youtube.com/watch?v=_wCQ4EQXC54){:target="_blank"}
 * 🌐 [🐇 Reverse Engineering for Beginners](https://beginners.re/)
 * [**LiveOverflow** Channel](https://www.youtube.com/watch?v=iyAyN3GFM7A&list=PLhixgUqwRTjxglIswKp9mpkfPNfHkzyeN&index=1)
 * [Overview - CTF 101](https://ctf101.org/reverse-engineering/overview/)
