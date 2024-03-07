@@ -8,7 +8,7 @@ lang: "fr"
 permalink: "/apps/upgrade_peertube"
 ---
 
-[Peertube](https://joinpeetube.org/){:target="_blank"}  est un **logiciel libre** crée par [Chocobozzz](https://blog.cpy.re/) et financé par [Framasoft](https://framasoft.org/fr/){:target="_blank"} qui permet de vous émanciper des plateformes video proprietaries. J'ai déjà fait [un autre post sur Peertube](https://web.lunarviews.net/apps/peertube){:target="_blank"} sur sa monitorisation.
+[Peertube](https://joinpeertube.org/){:target="_blank"}  est un **logiciel libre** crée par [Chocobozzz](https://blog.cpy.re/) et financé par [Framasoft](https://framasoft.org/fr/){:target="_blank"} qui permet de vous émanciper des plateformes video proprietaries. J'ai déjà fait [un autre post sur Peertube](https://web.lunarviews.net/apps/peertube){:target="_blank"} sur sa monitorisation.
 
 Une petite vidéo en Live sur la mise à jour de mon instance Peertube [https://ptb.lunarviews.net](https://ptb.lunarviews.net){:target="_blank"}  
 
