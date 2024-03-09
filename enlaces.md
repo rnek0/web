@@ -48,7 +48,8 @@ permalink: /enlaces/
 * 🇬🇧 &nbsp;&nbsp;&nbsp; [Chroma playground - Hugo](https://swapoff.org/chroma/playground/)
 
 #### Python
-* 🇬🇧 &nbsp;&nbsp;&nbsp; [Scapy in 0x30 Minutes](https://guedou.github.io/talks/2022_GreHack/Scapy%20in%200x30%20minutes.slides.html#/)
+* 🇬🇧 &nbsp;&nbsp;&nbsp; [Scapy in 0x30 Minutes](https://guedou.github.io/talks/2022_GreHack/Scapy%20in%200x30%20minutes.slides.html#/) 
+* 🇪🇸 &nbsp;&nbsp;&nbsp; [Curso Python Ofensivo de S4vitar](https://hack4u.io/cursos/python-ofensivo/)
 
 #### C#
 * <img src="/assets/favi-youtube.png" with="18" height="18" alt="on youtube" /> 🇲🇽 &nbsp;&nbsp;&nbsp; [**TI Capacitación**](https://www.youtube.com/@CanalTICapacitacion)
