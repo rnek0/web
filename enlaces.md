@@ -115,6 +115,7 @@ permalink: /enlaces/
 * 🌐 [Aprender a Aprender](https://laprovittera.com/aprender-a-aprender/ "Aprender a Aprender")  
 * 🌐 [Aprende inglés con Lingolia](https://english.lingolia.com/es/)  
 * 🌐 [IP Calculator](https://blog.jodies.de/ipcalc "IP Calculator")
+* 🌐 [Emoji Cheat Sheet](https://www.webfx.com/tools/emoji-cheat-sheet/)
 
 &nbsp;
 

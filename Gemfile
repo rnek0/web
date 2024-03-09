@@ -67,4 +67,7 @@ gem 'webrick', '~> 1.8', '>= 1.8.1'
 # Install jekyll
 #gem 'jekyll', '>= 3.9.3'
 
+# https://github.com/jekyll/jemoji
+gem 'jemoji'
+
 gem 'json', '~> 2.6', '>= 2.6.3'
