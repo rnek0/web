@@ -35,21 +35,21 @@ permalink: /enlaces/
 
 
 #### Rust
-* 🐇 &nbsp; [The Rust Programming Language](https://doc.rust-lang.org/book/)
-* 🇬🇧 &nbsp; [mdBook Documentation](https://rust-lang.github.io/mdBook/index.html)
+* 🐇 &nbsp; [The Rust Programming Language](https://doc.rust-lang.org/book/){:target="_blank"}
+* 🇬🇧 &nbsp; [mdBook Documentation](https://rust-lang.github.io/mdBook/index.html){:target="_blank"}
 
 #### C++
-* <img src="/assets/favi-youtube.png" with="18" height="18" alt="on youtube" /> 🇪🇸 &nbsp;&nbsp;&nbsp; [**Pauek** & Asteroids](https://www.youtube.com/watch?v=HCWghQtxlos&list=PLDD6B727E5B6B5E33)
-* <img src="/assets/favi-youtube.png" with="18" height="18" alt="on youtube" /> 🇪🇸 &nbsp;&nbsp;&nbsp; [**deividcoptero** & Space Invaders C++/Allegro](https://www.youtube.com/playlist?list=PL6hPvfzEEMDZ4PSkN-5Zj_0-YVO7b0OgC)
+* <img src="/assets/favi-youtube.png" with="18" height="18" alt="on youtube" /> 🇪🇸 &nbsp;&nbsp;&nbsp; [**Pauek** & Asteroids](https://www.youtube.com/watch?v=HCWghQtxlos&list=PLDD6B727E5B6B5E33){:target="_blank"}
+* <img src="/assets/favi-youtube.png" with="18" height="18" alt="on youtube" /> 🇪🇸 &nbsp;&nbsp;&nbsp; [**deividcoptero** & Space Invaders C++/Allegro](https://www.youtube.com/playlist?list=PL6hPvfzEEMDZ4PSkN-5Zj_0-YVO7b0OgC){:target="_blank"}
 
 #### Go
-* 🇬🇧 &nbsp;&nbsp;&nbsp; [The Go Blog](https://go.dev/blog/all)
-* 🇬🇧 &nbsp;&nbsp;&nbsp; [Quick Start - Hugo](https://gohugo.io/getting-started/quick-start/)
-* 🇬🇧 &nbsp;&nbsp;&nbsp; [Chroma playground - Hugo](https://swapoff.org/chroma/playground/)
+* 🇬🇧 &nbsp;&nbsp;&nbsp; [The Go Blog](https://go.dev/blog/all){:target="_blank"}
+* 🇬🇧 &nbsp;&nbsp;&nbsp; [Quick Start - Hugo](https://gohugo.io/getting-started/quick-start/){:target="_blank"}
+* 🇬🇧 &nbsp;&nbsp;&nbsp; [Chroma playground - Hugo](https://swapoff.org/chroma/playground/){:target="_blank"}
 
 #### Python
-* 🇬🇧 &nbsp;&nbsp;&nbsp; [Scapy in 0x30 Minutes](https://guedou.github.io/talks/2022_GreHack/Scapy%20in%200x30%20minutes.slides.html#/) 
-* 🇪🇸 &nbsp;&nbsp;&nbsp; [Curso Python Ofensivo de S4vitar](https://hack4u.io/cursos/python-ofensivo/)
+* 🇬🇧 &nbsp;&nbsp;&nbsp; [Scapy in 0x30 Minutes](https://guedou.github.io/talks/2022_GreHack/Scapy%20in%200x30%20minutes.slides.html#/){:target="_blank"} 
+* 🇪🇸 &nbsp;&nbsp;&nbsp; [Curso Python Ofensivo de S4vitar](https://hack4u.io/cursos/python-ofensivo/){:target="_blank"}
 
 #### C#
 * <img src="/assets/favi-youtube.png" with="18" height="18" alt="on youtube" /> 🇲🇽 &nbsp;&nbsp;&nbsp; [**TI Capacitación**](https://www.youtube.com/@CanalTICapacitacion)
@@ -116,6 +116,7 @@ permalink: /enlaces/
 * 🌐 [Aprende inglés con Lingolia](https://english.lingolia.com/es/)  
 * 🌐 [IP Calculator](https://blog.jodies.de/ipcalc "IP Calculator")
 * 🌐 [Emoji Cheat Sheet](https://www.webfx.com/tools/emoji-cheat-sheet/)
+* 🌐 [Kitty shortcuts "tabs & windows"](https://sw.kovidgoyal.net/kitty/overview/#tabs-and-windows)
 
 &nbsp;
 

@@ -79,6 +79,10 @@ $ sudo openvpn us-free-114043.protonvpn.udp.ovpn
 ...
 ```
 
+Voici une joli capture pour les curieux :
+
+![Session openvpn avec ProtonVPN](/assets/proton/pVPN-resultado.png)
+
 Et voila !
 
 ---
