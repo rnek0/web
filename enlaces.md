@@ -16,22 +16,22 @@ permalink: /enlaces/
 <div style="text-align: right;"><a href="#" >up &uarr;</a>&nbsp;</div>
 
 #### ASM
-* 🇬🇧 &nbsp;&nbsp;&nbsp; [NASM Assembly Language Tutorials - asmtutor.com](https://asmtutor.com/)
-* 🇬🇧 &nbsp;&nbsp;&nbsp; [How to Read Assembly Language - Scott Wolchok](https://wolchok.org/posts/how-to-read-assembly-language/)
-* 🇫🇷 &nbsp;&nbsp;&nbsp; [Liste des registres](https://asm.developpez.com/intro/index.php#LIII)
-* <img src="/assets/flag-jp.png" with="18" height="18" alt="on https://hack.jp" /> &nbsp; [Compile msgbox.asm with Visual Studio 2022](https://hack.jp/461/)
-* <img src="/assets/favi-youtube.png" with="18" height="18" alt="on youtube" /> 🇫🇷 &nbsp;&nbsp;&nbsp; [Introduction à l'assembleur x86 par HackingIsland](https://www.youtube.com/watch?v=tmtXn2UXR3g&list=PLJm4t7V852mN-Mv38ipWa8AEiKXfzZECV&index=31)  
-* 🇬🇧 &nbsp;&nbsp;&nbsp; [The Official Radare2 Book](https://book.rada.re/index.html)
+* 🇬🇧 &nbsp;&nbsp;&nbsp; [NASM Assembly Language Tutorials - asmtutor.com](https://asmtutor.com/){:target="_blank"}
+* 🇬🇧 &nbsp;&nbsp;&nbsp; [How to Read Assembly Language - Scott Wolchok](https://wolchok.org/posts/how-to-read-assembly-language/){:target="_blank"}
+* 🇫🇷 &nbsp;&nbsp;&nbsp; [Liste des registres](https://asm.developpez.com/intro/index.php#LIII){:target="_blank"}
+* <img src="/assets/flag-jp.png" with="18" height="18" alt="on https://hack.jp" /> &nbsp; [Compile msgbox.asm with Visual Studio 2022](https://hack.jp/461/){:target="_blank"}
+* <img src="/assets/favi-youtube.png" with="16" height="16" alt="on youtube" /> 🇫🇷 &nbsp;&nbsp; [Introduction à l'assembleur x86 par HackingIsland](https://www.youtube.com/watch?v=tmtXn2UXR3g&list=PLJm4t7V852mN-Mv38ipWa8AEiKXfzZECV&index=31){:target="_blank"}
+* 🇬🇧 &nbsp;&nbsp;&nbsp; [The Official Radare2 Book](https://book.rada.re/index.html){:target="_blank"}
 
 #### C
-* 🐇 &nbsp;&nbsp;&nbsp; [The GNU C Reference Manual](https://www.gnu.org/software/gnu-c-manual/gnu-c-manual.html)
-* 🇬🇧 &nbsp;&nbsp;&nbsp; [GDB Tutorial](http://www.gdbtutorial.com/tutorial/commands)
-* 🐇 &nbsp;&nbsp;&nbsp; [GNU make](https://www.gnu.org/software/make/manual/html_node/index.html)
-* 🇬🇧 &nbsp;&nbsp;&nbsp; [Understanding pointers - Drew DeVault's blog](https://drewdevault.com/2016/05/28/Understanding-pointers.html)
-* 🇫🇷 &nbsp;&nbsp;&nbsp; [Programmation en langage C - Anne Canteaut](https://www.rocq.inria.fr/secret/Anne.Canteaut/COURS_C/)
-* 🇫🇷 &nbsp;&nbsp;&nbsp; [Tutoriel : La programmation système en C sous Unix](http://sdz.tdct.org/sdz/la-programmation-systeme-en-c-sous-unix.html)
-* 🇫🇷 &nbsp;&nbsp;&nbsp; [Les sockets en C](https://broux.developpez.com/articles/c/sockets/)
-* <img src="/assets/favi-youtube.png" with="18" height="18" alt="on youtube" /> 🇫🇷 &nbsp;&nbsp;&nbsp; [Bjornulf Frode](https://www.youtube.com/@bjornulf2011/playlists)
+* 🐇 &nbsp;&nbsp;&nbsp; [The GNU C Reference Manual](https://www.gnu.org/software/gnu-c-manual/gnu-c-manual.html){:target="_blank"}
+* 🇬🇧 &nbsp;&nbsp;&nbsp; [GDB Tutorial](http://www.gdbtutorial.com/tutorial/commands){:target="_blank"}
+* 🐇 &nbsp;&nbsp;&nbsp; [GNU make](https://www.gnu.org/software/make/manual/html_node/index.html){:target="_blank"}
+* 🇬🇧 &nbsp;&nbsp;&nbsp; [Understanding pointers - Drew DeVault's blog](https://drewdevault.com/2016/05/28/Understanding-pointers.html){:target="_blank"}
+* 🇫🇷 &nbsp;&nbsp;&nbsp; [Programmation en langage C - Anne Canteaut](https://www.rocq.inria.fr/secret/Anne.Canteaut/COURS_C/){:target="_blank"}
+* 🇫🇷 &nbsp;&nbsp;&nbsp; [Tutoriel : La programmation système en C sous Unix](http://sdz.tdct.org/sdz/la-programmation-systeme-en-c-sous-unix.html){:target="_blank"}
+* 🇫🇷 &nbsp;&nbsp;&nbsp; [Les sockets en C](https://broux.developpez.com/articles/c/sockets/){:target="_blank"}
+* <img src="/assets/favi-youtube.png" with="18" height="18" alt="on youtube" /> 🇫🇷 &nbsp;&nbsp;&nbsp; [Bjornulf Frode](https://www.youtube.com/@bjornulf2011/playlists){:target="_blank"}
 
 
 #### Rust
