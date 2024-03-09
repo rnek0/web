@@ -42,14 +42,14 @@ Hace 25 años que hice mi primera web, desde entonces he pasado por bastantes le
 
 Actualmente me voy orientando poco a poco hacia el pentesting, un mundo apasionante porque "el saber no ocupa lugar".
 
-Me gusta [el surf](https://www.anglet-tourisme.com/fr/pratique/webcams.php) en el Pais Vasco francés, la música, las tapas y el pollo de la feria de Sevilla, los mejillones con patatas fritas en el centro de Bruselas y bla bla bla... 
+Me gusta [el surf](https://www.anglet-tourisme.com/fr/pratique/webcams.php){:target="_blank"} en el Pais Vasco francés, la música, las tapas y el pollo de la feria de Sevilla, los mejillones con patatas fritas en el centro de Bruselas y bla bla bla... 
 
 
 ### Acerca de mi blog.
 
-Este blog es uno de los sitios donde escribo cosas, al igual escribo cosas en [Sourcehut](https://sr.ht/~rnek0/) o en otros lugares como en mi capsula gemini.
+Este blog es uno de los sitios donde escribo cosas, al igual escribo cosas en [Sourcehut](https://git.sr.ht/~rnek0/){:target="_blank"} o en otros lugares como en mi capsula gemini.
 
-Me puedes contactar en admin @ lunarviews.net, y si no me encontraras fácilmente en Mastodon.
+Me puedes contactar en rnek0 @ member.fsf.org, y si no me encontraras fácilmente en Mastodon.
 
 &nbsp;
 
@@ -57,8 +57,8 @@ Me puedes contactar en admin @ lunarviews.net, y si no me encontraras fácilment
 
 &nbsp;
 
-* El theme es [minima](https://github.com/jekyll/minima), simple y interesante a toquetear como lo voy haciendo.
-* Esta hospedado en github pages con el dominio alquilado en [Gandi](https://www.gandi.net)
+* El theme es [minima](https://github.com/jekyll/minima){:target="_blank"}, simple y interesante a toquetear como lo voy haciendo.
+* Esta hospedado en github pages con el dominio alquilado en [Gandi](https://www.gandi.net){:target="_blank"}
 
 &nbsp;
 
@@ -66,7 +66,7 @@ Es bastante práctico, escribes y generas las páginas en tu equipo con :
 
  ```bundle exec jekyll server --livereload```  
 
-cuando estás satisfecho haces el push hacia [el repo en github](https://github.com/rnek0/web), o donde quieras hospedarlo.
+cuando estás satisfecho haces el push hacia [el repo en github](https://github.com/rnek0/web){:target="_blank"}, o donde quieras hospedarlo.
 
 &nbsp;
 
@@ -75,7 +75,7 @@ cuando estás satisfecho haces el push hacia [el repo en github](https://github.
 
 &nbsp;
 
-Saludos y [¡¡¡Happy Hacking !!!](https://www.hackingisnotacrime.org/)
+Saludos y [¡¡¡Happy Hacking !!!](https://www.hackingisnotacrime.org/) 
 
 ---
 <div style="text-align: right;"><a href="#" >up &uarr;</a>&nbsp;</div>
