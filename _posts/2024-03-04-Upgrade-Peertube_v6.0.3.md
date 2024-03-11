@@ -170,7 +170,18 @@ $ sudo systemctl restart peertube
 
 &nbsp;
 
-## 3. Mise à jour des favicons (bonus)
+## 3. Régénérer les vignettes vidéo
+
+La régénération des miniatures de vidéos locales pourrait être utile car les nouvelles versions de PeerTube peuvent augmenter la taille des miniatures :
+
+```bash
+$ cd /var/www/peertube/peertube-latest
+$ sudo -u peertube NODE_CONFIG_DIR=/var/www/peertube/config NODE_ENV=production npm run regenerate-thumbnails
+```
+
+&nbsp;
+
+## 4. Mise à jour des favicons (bonus)
 
 Ceci est un bonus, ce n'est pas obligatoire; il me semble qu'il y a un plugin qui gère les favicons mais je ne suis pas sur. Ici je reprends les mêmes que j'avais dans la version précédente: peertube-v6.0.2
 
