@@ -8,7 +8,7 @@ lang: "es"
 permalink: "/parrot/node"
 ---
 
-Guía rápida sobre cómo instalar la última versión de [Node.js](https://es.wikipedia.org/wiki/Node.js "Node.js en wikipedia") y [npm](https://es.wikipedia.org/wiki/Npm "Npm en wikipedia") en Parrot.  
+🇪🇸 Guía rápida sobre cómo instalar la última versión de [Node.js](https://es.wikipedia.org/wiki/Node.js "Node.js en wikipedia") y [npm](https://es.wikipedia.org/wiki/Npm "Npm en wikipedia") en Parrot.  
 Realizado en una VM VirtualBox (Version 7.0.6 r155176)
 
 ```bash

@@ -8,7 +8,7 @@ lang: "fr"
 permalink: "/xorg/xmodmap"
 ---
 
-J'ai un clavier azerty en ce moment et je voudrais pouvoir taper en espagnol, je suis en Archlinux avec i3 et Xorg donc voici donc mes manips pour changer les keycodes et pouvoir avoir des jolies ñ (avec win right,n,altgr+2)
+🇫🇷 J'ai un clavier azerty en ce moment et je voudrais pouvoir taper en espagnol, je suis en Archlinux avec i3 et Xorg donc voici donc mes manips pour changer les keycodes et pouvoir avoir des jolies ñ (avec win right,n,altgr+2)
 
 ## Création de mon ~/.Xmodmap
 

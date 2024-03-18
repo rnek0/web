@@ -8,7 +8,7 @@ lang: "es"
 permalink: "/idioma/"
 ---
 
-# Cómo cambiar el idioma en VSCodium
+🇪🇸 Cómo cambiar el idioma en VSCodium
 
 [VSCodium](https://github.com/VSCodium/vscodium "VSCodium en Github") es la version de VSCode libre, "Free/Libre Open Source Software Binaries of VS Code", si no conoces este editor de código *no hay que confundirlo* con el IDE propietario Visual Studio de Microsoft. Ver explicación [Visual Studio vs Visual Studio Code](https://www.freecodecamp.org/espanol/news/visual-studio-vs-visual-studio-code-cual-es-la-diferencia-entre-estos-editores-de-codigo-ide/) 
 

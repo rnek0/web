@@ -8,7 +8,7 @@ lang: "fr"
 permalink: "/htb/Validation"
 ---
 
-# Machine Validation - htb
+🇫🇷 Machine Validation - htb
 
 ![Validation](/assets/validation/Validation.png)
 

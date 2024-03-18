@@ -8,7 +8,7 @@ lang: "fr"
 permalink: "/apps/peertube"
 ---
 
-Voici quelques notes pour pouvoir s'initier à [monitoriser Peertube](https://docs.joinpeertube.org/maintain/observability) avec :
+🇫🇷 Voici quelques notes pour pouvoir s'initier à [monitoriser Peertube](https://docs.joinpeertube.org/maintain/observability) avec :
 
 - Prometheus
 - Grafana

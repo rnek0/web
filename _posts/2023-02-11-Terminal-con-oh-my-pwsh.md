@@ -8,7 +8,7 @@ lang: "es"
 permalink: "/terminal/oh-my-pwsh"
 ---
 
-## Instalar Windows Terminal y configurar Oh My Posh
+🇪🇸 Instalar Windows Terminal y configurar Oh My Posh
 
 ![windows Terminal](/assets/nimSurWindows.PNG)
 

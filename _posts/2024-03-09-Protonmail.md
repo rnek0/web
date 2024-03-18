@@ -8,7 +8,7 @@ lang: "fr"
 permalink: "/apps/protonvpn"
 ---
 
-Ce post es un peu technique, si vous cherchez une recette de cuisine passez vôtre chemin, ce n'est pas que l'on se fiche de bien manger, mais que ce n'est pas l'orientation de ce blog. 
+🇫🇷 Ce post es un peu technique, si vous cherchez une recette de cuisine passez vôtre chemin, ce n'est pas que l'on se fiche de bien manger, mais que ce n'est pas l'orientation de ce blog. 
 
 [Protonmail](https://fr.wikipedia.org/wiki/Proton_Mail){:target="_blank"} est une messagerie web chiffrée [de bout en bout](https://fr.wikipedia.org/wiki/Chiffrement_de_bout_en_bout){:target="_blank"}. 📬 🔐
 

@@ -7,7 +7,7 @@ author: "by rnek0"
 lang: "fr"
 permalink: "/jekyll/azure"
 ---
-# Création de site statique avec Jekill sur Windows 10 et hébergement sur Azure HTML.
+🇫🇷 Création de site statique avec Jekill sur Windows 10 et hébergement sur Azure HTML.
 
 Un petit blog sympa et pratique ? voici un petit tuto qui va vous plaire.
 
@@ -23,7 +23,7 @@ Il est configurable a souhait pour gérer tous les assets du site, on peut utili
 
 En gros voila pour la présentation.
 
-## Etape1: Création de site HTML5 statique sur Azure
+## Étape 1: Création de site HTML5 statique sur Azure
 
 Dans le tableau de bord du [portail Azure](https://portal.azure.com/) cliquer sur + et entrer le nom du Template " HTML5 Empty Web App " dans le moteur de recherche. Cliquez su créer et suivez la procédure habituelle (entrez le nom de vôtre application, choisissez vôtre abonnement et vôtre groupe de ressources, emplacement de App Service et créer)
 

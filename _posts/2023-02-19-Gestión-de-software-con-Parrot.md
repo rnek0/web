@@ -8,7 +8,7 @@ lang: "es"
 permalink: "/parrot/apt"
 ---
 
-# Gestión de software con Parrot 
+🇪🇸 Gestión de software con Parrot 
 
 > <a href="#comandos">Ver los comandos apt</a>
 

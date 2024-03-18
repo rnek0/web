@@ -1,0 +1,43 @@
+# Kali wsl2 with 11 quick guide
+
+1. Open a administrator command prompt
+
+> win + r and enter wt ; ctrl + shift + enter
+
+ and run :
+
+```
+dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
+dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all
+```
+
+2. Restart when prompt
+
+3. Download and install the WSL 2 Linux Kernel from here: [https://aka.ms/wsl2kernel](https://aka.ms/wsl2kernel)
+
+- msi link : Package de mise à jour du noyau Linux WSL2 pour machines x64](https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi)
+
+4. Restart
+
+5. Open a command prompt and run:
+
+```
+wsl --set-default-version 2
+```
+
+This command set wsl2 as default. Comparing WSL Versions [https://learn.microsoft.com/en-us/windows/wsl/compare-versions](https://learn.microsoft.com/en-us/windows/wsl/compare-versions)
+
+
+6. 
+
+    Install from the Microsoft Store: [Kali Linux](https://apps.microsoft.com/store/detail/kali-linux/9PKR34TNCV07)
+        NOTE: If there is an existing Kali WSL 1, upgrade it by running: wsl --set-version kali-linux 2
+    Run kali to finish the initial setup of creating a new user
+	
+	
+7. Have some problems ?
+
+WSL2 runs with Hyper-V so you need to install-it.
+
+After 4 reboots and Hyper-V install this worlks fine...
+

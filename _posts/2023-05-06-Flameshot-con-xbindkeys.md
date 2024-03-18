@@ -8,23 +8,23 @@ lang: "es"
 permalink: "/redes/flameshot"
 ---
 
-¿ Como crear un atajo de teclado (shortcut) para **Flameshot** y hacer pantallazos solo al pulsar la tecla "Print Screen" ? aquí tenéis los pasos a ejecutar :
+🇪🇸 ¿ Como crear un atajo de teclado (shortcut) para **Flameshot** y hacer pantallazos solo al pulsar la tecla "Print Screen" ? aquí tenéis los pasos a ejecutar :
 
 ### Una breve presentación :
 
-[Flameshot](https://flameshot.org/) es un programa que permite hacer capturas de pantalla, es [Free](https://github.com/flameshot-org/flameshot/blob/master/LICENSE) con [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.en.html) & [open source](https://opensource.org/) software. 
+[Flameshot](https://flameshot.org/){:target="_blank"} es un programa que permite hacer capturas de pantalla, es [Free](https://github.com/flameshot-org/flameshot/blob/master/LICENSE){:target="_blank"} con [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.en.html){:target="_blank"} & [open source](https://opensource.org/){:target="_blank"} software. 
 
-[xbindkeys](https://www.nongnu.org/xbindkeys/) es un programa que permite lanzar comandos shell con teclado o con el ratón (mouse).
+[xbindkeys](https://www.nongnu.org/xbindkeys/){:target="_blank"} es un programa que permite lanzar comandos shell con teclado o con el ratón (mouse).
 
-[bspwm](https://github.com/baskerville/bspwm) es un gestor de ventanas en mosaico que representa las ventanas como las hojas de un árbol binario completo.
+[bspwm](https://github.com/baskerville/bspwm){:target="_blank"} es un gestor de ventanas en mosaico que representa las ventanas como las hojas de un árbol binario completo.
 
 ### El entorno
 
-El entorno en el que esto esta hecho es una distribución Gnu-Linux [**Parrot**](https://www.parrotsec.org/) con bspwm en una maquina virtual, como se puede aprender en el curso "**Personalización de entorno en Linux**" de la academia [hack4u](https://hack4u.io/cursos/personalizacion-de-entorno-en-linux/).  
+El entorno en el que esto esta hecho es una distribución Gnu-Linux [**Parrot**](https://www.parrotsec.org/){:target="_blank"} con bspwm en una maquina virtual, como se puede aprender en el curso "**Personalización de entorno en Linux**" de la academia [hack4u](https://hack4u.io/cursos/personalizacion-de-entorno-en-linux/){:target="_blank"}.  
 
 Al principio la maquina virtual fue creada con WMware en windows y mas tarde exportada a VirtualBox en Archlinux.
 
-Aqui teneis las etapas para conseguirlo(*). Manos a la obra...
+Aquí tenéis las etapas para conseguirlo(*). Manos a la obra...
 
 > \* Si prefieres solo poner 2 lineas en el /home/${USER}/.config/sxhkd/sxhkdrc* ver [aqui]({{ . }}#Comentarios+finales "2 lineas")
 

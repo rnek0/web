@@ -10,7 +10,10 @@ permalink: "/nextcloud/"
 <div style="vertical-align: baseline; display: flex; justify-content: center;">
 <iframe title="Conectando al Nextcloud de Hispagatos." src="https://ptb.lunarviews.net/videos/embed/a03b4831-c2cf-4a39-b5b9-c6989a4c2bac" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups" width="560" height="315" frameborder="0"></iframe>
 </div>
-# Conectando al NextCloud de Hispagatos
+
+&nbsp;
+
+🇪🇸 Conectando al NextCloud de Hispagatos
 
 Vamos a ver como crear montajes WebDAV con la shell para conectarnos al __NextCloud de Hispagatos__ en un entorno [Arch Linux](https://archlinux.org/).  
 Esto es útil para acceder al cloud de la misma forma que cualquier otro montaje de sistema de archivos remoto.
