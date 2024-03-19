@@ -13,7 +13,7 @@ permalink: "/apps/kali-wsl"
 🇬🇧 Kali Linux & WSL2 with Windows 11 (quick guide)   
 
 
-Microsoft **Windows Subsystem for Linux** (WSL) allow us to run some linux distributions on top of Hyper-V. 
+Microsoft **Windows Subsystem for Linux** (WSL) allow us to run some Linux distributions on top of Hyper-V. 
 
 [**Kali Linux**](https://www.kali.org/){:target="_blank"} is a distribution that needs no introduction, it is a Linux distribution designed for digital forensics and penetration testing. It is maintained and funded by [**Offensive Security**](https://www.offsec.com/){:target="_blank"}. Kali Linux is based on the Debian Testing branch: most of the packages used by Kali are imported from Debian repositories.
 
@@ -44,7 +44,7 @@ Download from here: [https://aka.ms/wsl2kernel](https://aka.ms/wsl2kernel){:targ
 
 - msi link : [WSL2 Linux kernel update package for x64 machines](https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi){:target="_blank"}
 
-![Windows Subsystem for Linux Update Setup](/assets/kali/wsl2.png)
+![Windows Subsystem for Linux Update Setup](/assets/kali/wsl2.png){: .center-image }
 
 &nbsp;
 
@@ -60,7 +60,7 @@ wsl --set-default-version 2
 
 This command set wsl2 as default. Comparing WSL Versions [https://learn.microsoft.com/en-us/windows/wsl/compare-versions](https://learn.microsoft.com/en-us/windows/wsl/compare-versions){:target="_blank"}
 
-![Set WSL 2 as default](/assets/kali/setDefaultToWSL2.png)
+![Set WSL 2 as default](/assets/kali/setDefaultToWSL2.png){: .center-image }
 
 ---
 &nbsp;
@@ -73,11 +73,11 @@ NOTE: If there is an existing Kali WSL 1, upgrade it by running:
 wsl --set-version kali-linux 2
 ```
 
-![Kali Linux on Windows store](/assets/kali/InstallFromStore.png)
+![Kali Linux on Windows store](/assets/kali/InstallFromStore.png){: .center-image }
 
 Run kali to finish the initial setup of creating a new user.
 	
-![Start Kali Linux](/assets/kali/StartKali.png)
+![Start Kali Linux](/assets/kali/StartKali.png){: .center-image }
 
 
 ---
@@ -86,7 +86,7 @@ Run kali to finish the initial setup of creating a new user.
 
 **WSL2** runs with **Hyper-V** so you need to install-it.
 
-![Hyper-V](/assets/kali/HyperV.png)
+![Hyper-V](/assets/kali/HyperV.png){: .center-image }
 
 
 After Hyper-V install this works fine... otherwise check [here](https://learn.microsoft.com/en-us/windows/wsl/troubleshooting?source=recommendations){:target="_blank"}
@@ -125,20 +125,20 @@ To start Win-KeX in Window mode with sound support, run either:
 * Inside of Kali WSL: ```kex --win -s```
 * On Window’s command prompt: ```wsl -d kali-linux kex --win -s```
 
-![Start Win-KeX](/assets/kali/Start_kex2.png)
+![Start Win-KeX](/assets/kali/Start_kex2.png){: .center-image }
 
 &nbsp;
 
 TADA !!!
 
-![Kali Linux](/assets/kali/pelada2.png)
+![Kali Linux](/assets/kali/pelada2.png){: .center-image }
 
 
 We need to perform some extra steps to finish the installation. Because we get this error : "System has not been booted with systemd as init system (PID 1)"
 
 As you can see the **network is not enabled**. NetworkManager is disabled, so ```Ctrl + Alt + T``` to open a terminal and check systemd status
 
-![Kali Linux](/assets/kali/pelada.png)
+![Kali Linux](/assets/kali/pelada.png){: .center-image }
 
 ---
 &nbsp;
@@ -175,12 +175,12 @@ $ wsl -t kali-linux
 $ wsl --list --verbose
 ```
 
-![Running distros](/assets/kali/Reboot_distro.png)
+![Running distros](/assets/kali/Reboot_distro.png){: .center-image }
 
 
 After restarting Kali Linux systemd will be operational.
 
-![systemd is working](/assets/kali/GG.png)
+![systemd is working](/assets/kali/GG.png){: .center-image }
 
 ---
 &nbsp;
@@ -188,13 +188,13 @@ After restarting Kali Linux systemd will be operational.
 
 Kali Linux is a Rolling distribution, check for updates and go to Tools page : <https://www.kali.org/tools/> 
 
-![Update](/assets/kali/up_to_date.png)
+![Update](/assets/kali/up_to_date.png){: .center-image }
 
 &nbsp;
 
 Windows Subsystem for Linux also allows you to install other distributions, you will find them in the store.
 
-![](/assets/kali/WSL4Win.png)
+![](/assets/kali/WSL4Win.png){: .center-image }
 
 &nbsp;
 
