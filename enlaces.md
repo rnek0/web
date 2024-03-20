@@ -121,6 +121,7 @@ permalink: /enlaces/
 * 🌐 [Kitty shortcuts "tabs & windows"](https://sw.kovidgoyal.net/kitty/overview/#tabs-and-windows){:target="_blank"}
 * 🌐 [Raccourcis clavier de Virtualbox](https://www.malekal.com/raccourcis-clavier-virtualbox/){:target="_blank"}
 * 🌐 [Customizing Your Theme Mkdocs](https://www.mkdocs.org/user-guide/customizing-your-theme/){:target="_blank"}
+* 🌐 [Neovim Quick reference guide](https://neovim.io/doc/user/quickref.html){:target="_blank"}
 
 &nbsp;
 
