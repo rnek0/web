@@ -110,6 +110,7 @@ permalink: /enlaces/
 
 * <img src="/assets/archlinux.svg" with="18" height="18" alt="Archlinux" /> [Archlinux](https://archlinux.org){:target="_blank"}
 * <img src="/assets/parrot22.png" with="18" height="18" alt="Archlinux" /> [Parrotsec](https://www.parrotsec.org/){:target="_blank"}
+* 🌐 [Kali tools](https://www.kali.org/tools/){:target="_blank"}
 * 🌐 [Guide de référence Nmap (Man Page, French translation)](https://nmap.org/man/fr/index.html){:target="_blank"}
 * 🌐 [Docker sur devopssec (French)](https://devopssec.fr/article/fonctionnement-manipulation-reseau-docker){:target="_blank"}
 * 🌐 [Pro Git, Segunda Edición, Español.](https://github.com/progit/progit2-es){:target="_blank"}
