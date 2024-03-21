@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Installación de Olvid en Linux"
+title:  "Instalación de Olvid en Linux"
 date:   2024-03-20 12:00:00 +0100
 categories: Archlinux Linux Olvid
 author: "by rnek0"
