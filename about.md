@@ -3,10 +3,10 @@ layout: post
 title: About
 permalink: /about/
 ---
-
+<!--
 [![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Despierta... Estas en la Matrix;Sigue al conejo blanco... 🐇)](https://git.io/typing-svg)
 
-
+-->
 
 <div align="center"><span style="font-size:2em; font-weight: 600;">¿ Quien soy ?</span><br><img src="../assets/tony_neko.png" alt="Moi et Neko" /><br><span style="font-size:1.2em; filter: opacity(0.20);"> ¡Hey!, aquí estamos ;) </span></div>
 <br>
@@ -24,9 +24,9 @@ Soy un desarrollador autodidacta que piensa en códigos, administra servidores y
 
 &nbsp;
 
-Me gusta Gnu/Linux, el [#fediverso](https://es.wikipedia.org/wiki/Fediverso) y administro una instancia [Peertube](https://ptb.lunarviews.net). 
+Me gusta Gnu/Linux, el [#fediverso](https://es.wikipedia.org/wiki/Fediverso){:target="_blank"} y administro una instancia [Peertube](https://ptb.lunarviews.net){:target="_blank"}. 
 
-Soy partidario del [free software](https://www.fsf.org/) porque GNU's Not Unix! y lo utilizo lo mas a menudo posible, sin que me obligue a ejecutarlo el 100% de mi tiempo de utilización de **mi vida informática**. A eso se le llama la libertad, de hecho todo el mundo conoce las [4 libertades del software libre](https://www.gnu.org/philosophy/free-sw.es.html#four-freedoms "Las cuatro libertades esenciales"). En caso de que no sepas de lo que estoy hablando debes ver este [video](https://ptb.lunarviews.net/w/3e8GPSNLVDxyHfwBG2RcbC) de Richard Stallman.  
+Soy partidario del [free software](https://www.fsf.org/){:target="_blank"} porque GNU's Not Unix! y lo utilizo lo mas a menudo posible, sin que me obligue a ejecutarlo el 100% de mi tiempo de utilización de **mi vida informática**. A eso se le llama la libertad, de hecho todo el mundo conoce las [4 libertades del software libre](https://www.gnu.org/philosophy/free-sw.es.html#four-freedoms "Las cuatro libertades esenciales"){:target="_blank"}. En caso de que no sepas de lo que estoy hablando debes ver este [video](https://ptb.lunarviews.net/w/3e8GPSNLVDxyHfwBG2RcbC){:target="_blank"} de Richard Stallman.  
 
 Puedes suscribirte a la newsletter de la FSF o aportar tu ayuda utilizando este widget :  
 
@@ -77,9 +77,9 @@ cuando estás satisfecho haces el push hacia [el repo en github](https://github.
 
 &nbsp;
 
-Saludos y [¡¡¡Happy Hacking !!!](https://www.hackingisnotacrime.org/) 
+Saludos y [¡¡¡Happy Hacking !!!](https://www.hackingisnotacrime.org/){:target="_blank"} 
 
 ---
 <div style="text-align: right;"><a href="#" >up &uarr;</a>&nbsp;</div><br>
 
-<a href="https://www.stellaassange.com/"><img src="/assets/free_julian_assange.png" alt="Olvide App for Linux" class="center-image" /></a>
+<a href="https://www.stellaassange.com/" target="_blank" rel="noopener"><img src="/assets/free_julian_assange.png" alt="Olvide App for Linux" class="center-image" /></a>
