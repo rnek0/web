@@ -14,7 +14,7 @@ permalink: /about/
 
 **Tony** aka **rnek0** y mi amigo el gato **Neko** somos los dos webmasters asociados en est increíble proyecto. Vamos juntando bits poco a poco y quien sabe a donde llegaremos...  
 
-Este seudónimo se pronuncia **erneko** la idea inicial era *real neko* (en ingles-japonés), pero yo prefiero 'el neko' salvo que en Andalucia 'el' se pronuncia 'er' y el 0 al final pues es el valor de retorno (return 0). Parece una chorrada pero es algo muy importante para mi gato porque hay que devolverle rapido el control :D
+Este seudónimo se pronuncia **erneko** la idea inicial era *real neko* (en ingles-japonés), pero yo prefiero 'el neko' salvo que en Andalucia 'el' se pronuncia 'er' y el 0 al final pues es el valor de retorno (return 0). Parece una chorrada pero es algo muy importante para mi gato porque hay que devolverle rápido el control :D
 
 Soy un desarrollador autodidacta que piensa en códigos, administra servidores y es un aficionado a la seguridad informática. Un gran Noob como se puede apreciar en mi profile de HTB  
 
@@ -78,4 +78,6 @@ cuando estás satisfecho haces el push hacia [el repo en github](https://github.
 Saludos y [¡¡¡Happy Hacking !!!](https://www.hackingisnotacrime.org/) 
 
 ---
-<div style="text-align: right;"><a href="#" >up &uarr;</a>&nbsp;</div>
+<div style="text-align: right;"><a href="#" >up &uarr;</a>&nbsp;</div><br>
+
+<a href="https://www.stellaassange.com/"><img src="/assets/free_julian_assange.png" alt="Olvide App for Linux" class="center-image" /></a>
