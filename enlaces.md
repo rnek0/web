@@ -122,6 +122,7 @@ permalink: /enlaces/
 * 🌐 [Raccourcis clavier de Virtualbox](https://www.malekal.com/raccourcis-clavier-virtualbox/){:target="_blank"}
 * 🌐 [Customizing Your Theme Mkdocs](https://www.mkdocs.org/user-guide/customizing-your-theme/){:target="_blank"}
 * 🌐 [Neovim Quick reference guide](https://neovim.io/doc/user/quickref.html){:target="_blank"}
+* 🌐 [Certbot documentation 'renew'](https://eff-certbot.readthedocs.io/en/latest/using.html#renewing-certificates){:target="_blank"}
 
 &nbsp;
 
