@@ -79,6 +79,7 @@ permalink: /enlaces/
 - 🇬🇧 &nbsp;&nbsp;&nbsp; [Hack The Box](https://app.hackthebox.com/){:target="_blank"}
     - &nbsp;&nbsp;[HTB Academy](https://academy.hackthebox.com/){:target="_blank"}
 - 🇪🇸 &nbsp;&nbsp;&nbsp; [hack4u](https://hack4u.io/){:target="_blank"} **Academia Hacking y Ciberseguridad**
+- 🇪🇸 &nbsp;&nbsp;&nbsp; [VulNyx](https://vulnyx.com){:target="_blank"} **The free cybersecurity platform**
 - 🇬🇧 &nbsp;&nbsp;&nbsp; [Overthewire](https://overthewire.org/){:target="_blank"}
 - 🇬🇧 &nbsp;&nbsp;&nbsp; [Parrot](https://www.parrotsec.org/docs/mirrors/mirrors-list){:target="_blank"}
 - 🇬🇧 &nbsp;&nbsp;&nbsp; [Kali](https://www.kali.org/){:target="_blank"}
