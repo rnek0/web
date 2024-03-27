@@ -28,4 +28,19 @@
       </nav>
     {%- endif -%}
   </div>
-</header>
+</header><div style="display:flex; flex-direction: row; justify-content:center;"><div style="width: 0; height: 0; border: 0 solid transparent; border-left-width: 26px; border-right-width: 0px; border-top: 26px solid white;"></div><div id="atWork" style="color:gray; background-color:white; width:350px;justify-content:center;"><noscript>No cookies, no tracking, no stats... just a blog.</noscript></span></div><div style="width: 0; height: 0; border: 0 solid transparent; border-bottom-width: 26px; border-top-width: 0px; border-left: 26px solid white;"></div></div>
+<script>
+  const event = new Date(Date.UTC(2012, 11, 20, 3, 0, 0));
+  const options = {
+    weekday: 'long',
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric',
+  };
+
+  working("No cookies, no tracking, no stats... just a blog");
+  setTimeout(function() {
+    timeRuns = event.toLocaleDateString(undefined, options)
+    affichage(timeRuns);
+}, 5200);
+</script>
