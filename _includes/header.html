@@ -28,9 +28,16 @@
       </nav>
     {%- endif -%}
   </div>
-</header><div style="display:flex; flex-direction: row; justify-content:center;"><div style="width: 0; height: 0; border: 0 solid transparent; border-left-width: 26px; border-right-width: 0px; border-top: 26px solid white;"></div><div id="atWork" style="color:gray; background-color:white; width:350px;justify-content:center;"><noscript>No cookies, no tracking, no stats... just a blog.</noscript></span></div><div style="width: 0; height: 0; border: 0 solid transparent; border-bottom-width: 26px; border-top-width: 0px; border-left: 26px solid white;"></div></div>
+</header><div style="display:flex; flex-direction: row; justify-content:center;"><div style="width: 0; height: 0; border: 0 solid transparent; border-left-width: 26px; border-right-width: 0px; border-top: 26px solid white;"></div><div style="color:gray; background-color:white; width:345px; justify-content:center;"><span id="atWork" style="text-align:center; font-weight: 550;"><noscript>No cookies, no tracking, no stats... just a blog.</noscript></span></div><div style="width: 0; height: 0; border: 0 solid transparent; border-bottom-width: 26px; border-top-width: 0px; border-left: 26px solid white;"></div></div>
 <script>
-  const event = new Date(Date.UTC(2012, 11, 20, 3, 0, 0));
+
+  function getRandomIntInclusive(min, max) {
+    const minCeiled = Math.ceil(min);
+    const maxFloored = Math.floor(max);
+    return Math.floor(Math.random() * (maxFloored - minCeiled + 1) + minCeiled); // The maximum is inclusive and the minimum is inclusive
+  }
+  
+  const event = new Date();
   const options = {
     weekday: 'long',
     year: 'numeric',
@@ -38,7 +45,26 @@
     day: 'numeric',
   };
 
-  working("No cookies, no tracking, no stats... just a blog");
+  let quotes = ["No cookies, no tracking, no stats... just a blog.",
+                "web.lunarviews.net The best blog of my tld !",
+                "Free Assange !!! ... Free Assange NOW !!!",
+                "Be yourself; everyone else is already taken.",
+                "Be the change that you wish to see in the world.",
+                "It is never too late to be what you might have been.",
+                "Cáete siete veces y levántate ocho.",
+                "Todo lo que puedas imaginar, es real.",
+                "Un objetivo sin un plan es solo un deseo.",
+                "Lo que haces hoy puede mejorar todos tus mañanas."
+                ];
+  let i_quote = getRandomIntInclusive(0, quotes.length);
+  let quote = quotes[i_quote].toString();
+
+  if (quote) {
+    working(quote);
+  }else{
+    working("No cookies, no tracking, no stats... just a blog.");
+  }
+  
   setTimeout(function() {
     timeRuns = event.toLocaleDateString(undefined, options)
     affichage(timeRuns);

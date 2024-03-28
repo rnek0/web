@@ -25,37 +25,37 @@
 
   -->
 
-<style>
-  .center-image {
-    margin: 0 auto;
-    display: block;
-  }
-  #atWork{
-    display: flex;
-    justify-content: center;
-    font-weight: 550;
-    font-size: smaller;
-  }
-</style>
-<script language="JavaScript">
-  function affichage(strAffichage) {
-      var textAtWork = document.getElementById("atWork");
-      textAtWork.innerHTML = strAffichage + " ";
-  }
+  <style>
+    .center-image {
+      margin: 0 auto;
+      display: block;
+    }
+    #atWork{
+      display: flex;
+      justify-content: center;
+      font-weight: 550;
+      font-size: smaller;
+    }
+  </style>
+  <script language="JavaScript">
+    function affichage(strAffichage) {
+        var textAtWork = document.getElementById("atWork");
+        textAtWork.innerHTML = strAffichage;
+    }
 
-  function working(text) {
-      var textAtWork = document.getElementById("atWork");
-      var workStr = "";
+    function working(text) {
+        var textAtWork = document.getElementById("atWork");
+        var workStr = "";
 
-      for (var i = 0; i <= text.length - 1; i++) {
-          workStr = workStr + text[i];
-          (function() {
-              var currentStr = workStr;
-              setTimeout(function() {
-                textAtWork.innerHTML = currentStr;
-              }, 100 * i);
-          })();
-      }
-  }
-</script>
+        for (var i = 0; i <= text.length - 1; i++) {
+            workStr = workStr + text[i];
+            (function() {
+                var currentStr = workStr;
+                setTimeout(function() {
+                  textAtWork.innerHTML = currentStr;
+                }, 100 * i);
+            })();
+        }
+    }
+  </script>
 </head>
