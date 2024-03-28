@@ -18,6 +18,67 @@
 
     {%- include footer.html -%}
 
-  </body>
+    <script>
+      function affichage(strAffichage) {
+          var textAtWork = document.getElementById("atWork");
+          textAtWork.innerHTML = strAffichage;
+      }
 
+      function working(text) {
+          var textAtWork = document.getElementById("atWork");
+          var workStr = "";
+
+          for (var i = 0; i <= text.length - 1; i++) {
+              workStr = workStr + text[i];
+              (function() {
+                  var currentStr = workStr;
+                  setTimeout(function() {
+                    textAtWork.innerHTML = currentStr;
+                  }, 100 * i);
+              })();
+          }
+      }
+
+      function getRandomIntInclusive(min, max) {
+        const minCeiled = Math.ceil(min);
+        const maxFloored = Math.floor(max);
+        return Math.floor(Math.random() * (maxFloored - minCeiled + 1) + minCeiled); // The maximum is inclusive and the minimum is inclusive
+      }
+    
+      const event = new Date();
+      const options = {
+        weekday: 'long',
+        year: 'numeric',
+        month: 'long',
+        day: 'numeric',
+      };
+
+      let quotes = ["No cookies, no tracking, no stats... just a blog.",
+                    "web.lunarviews.net The best blog of my tld !",
+                    "Free Assange !!! ... Free Assange NOW !!!",
+                    "Be yourself; everyone else is already taken.",
+                    "Be the change that you wish to see in the world.",
+                    "It is never too late to be what you might have been.",
+                    "Cáete siete veces y levántate ocho.",
+                    "Todo lo que puedas imaginar, es real.",
+                    "Un objetivo sin un plan es solo un deseo.",
+                    "Lo que haces hoy puede mejorar todos tus mañanas."
+                    ];
+      let i_quote = getRandomIntInclusive(0, quotes.length);
+      let quote = quotes[i_quote].toString();
+
+      if (quote) {
+        working(quote);
+      }else{
+        working("No cookies, no tracking, no stats... just a blog.");
+      }
+      
+      setTimeout(function() {
+        timeRuns = event.toLocaleDateString(undefined, options)
+        affichage("<strong>" + timeRuns + "</strong>");
+      }, 5200);
+
+    </script>
+
+</body>
 </html>
