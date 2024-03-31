@@ -78,6 +78,7 @@ permalink: /enlaces/
 | ---- |----- |  
 | :uk: - 🐇   | [Scapy in 0x30 Minutes](https://guedou.github.io/talks/2022_GreHack/Scapy%20in%200x30%20minutes.slides.html#/){:target="_blank"} |  
 | :es:  | [Curso Python Ofensivo de S4vitar](https://hack4u.io/cursos/python-ofensivo/){:target="_blank"} (Académia hack4u) |  
+| :uk:  | [PEP 8 – Style Guide for Python Code](https://peps.python.org/pep-0008/){:target="_blank"} |  
 
 ---
 <div style="text-align: right;"><a href="#" >up &uarr;</a>&nbsp;</div>  
