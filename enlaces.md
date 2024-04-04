@@ -135,14 +135,14 @@ permalink: /enlaces/
 ---
 <div style="text-align: right;"><a href="#" >up &uarr;</a>&nbsp;</div>
 
-- 🇬🇧 &nbsp;&nbsp;&nbsp; [Hack The Box](https://app.hackthebox.com/){:target="_blank"}
-    - &nbsp;&nbsp;[HTB Academy](https://academy.hackthebox.com/){:target="_blank"}
+- 🇬🇧 &nbsp;&nbsp;&nbsp; [HTB : Hack The Box](https://app.hackthebox.com/){:target="_blank"}
+ * 🇬🇧 &nbsp;&nbsp;&nbsp; 🔐 [Learn cybersec with 'Hackthebox Academy'](https://referral.hackthebox.com/mzwQbJJ){:target="_blank"}  🥷
 - 🇪🇸 &nbsp;&nbsp;&nbsp; [hack4u](https://hack4u.io/){:target="_blank"} **Academia Hacking y Ciberseguridad**
 - 🇪🇸 &nbsp;&nbsp;&nbsp; [VulNyx](https://vulnyx.com){:target="_blank"} **The free cybersecurity platform**
 - 🇬🇧 &nbsp;&nbsp;&nbsp; [Overthewire](https://overthewire.org/){:target="_blank"}
+- 🇬🇧 &nbsp;&nbsp;&nbsp; [THM : tryhackme.com](https://tryhackme.com/){:target="_blank"}
 - 🇬🇧 &nbsp;&nbsp;&nbsp; [Parrot](https://www.parrotsec.org/docs/mirrors/mirrors-list){:target="_blank"}
 - 🇬🇧 &nbsp;&nbsp;&nbsp; [Kali](https://www.kali.org/){:target="_blank"}
-- 🇬🇧 &nbsp;&nbsp;&nbsp; [THM](https://tryhackme.com/){:target="_blank"}
 - 🇬🇧 &nbsp;&nbsp;&nbsp; [Vulnhub](https://vulnhub.com/){:target="_blank"}
 - 🇬🇧 &nbsp;&nbsp;&nbsp; [WSA](https://portswigger.net/web-security){:target="_blank"} *Web Security Academy: Free Online Training from PortSwigger*
     - &nbsp;&nbsp;<https://portswigger.net/web-security/sql-injection>

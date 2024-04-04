@@ -18,6 +18,7 @@ permalink: "/redes/flameshot"
 
 [bspwm](https://github.com/baskerville/bspwm){:target="_blank"} es un gestor de ventanas en mosaico que representa las ventanas como las hojas de un árbol binario completo.
 
+
 ### El entorno
 
 El entorno en el que esto esta hecho es una distribución Gnu-Linux [**Parrot**](https://www.parrotsec.org/){:target="_blank"} con bspwm en una maquina virtual, como se puede aprender en el curso "**Personalización de entorno en Linux**" de la academia [hack4u](https://hack4u.io/cursos/personalizacion-de-entorno-en-linux/){:target="_blank"}.  
