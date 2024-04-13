@@ -79,7 +79,10 @@ permalink: /enlaces/
 | :uk: - 🐇   | [Scapy in 0x30 Minutes](https://guedou.github.io/talks/2022_GreHack/Scapy%20in%200x30%20minutes.slides.html#/){:target="_blank"} |  
 | :es:  | [Curso Python Ofensivo de S4vitar](https://hack4u.io/cursos/python-ofensivo/){:target="_blank"} (Académia hack4u) |  
 | :uk:  | [PEP 8 – Style Guide for Python Code](https://peps.python.org/pep-0008/){:target="_blank"} |  
+| :uk:  | [Writing your first Django app](https://docs.djangoproject.com/en/5.0/intro/tutorial01/){:target="_blank"} |  
+| :uk:  | [DjangoApp - Scaffold for Django application on Windows.](https://github.com/rnek0/DjangoApp){:target="_blank"} |  
 
+DjangoApp
 ---
 <div style="text-align: right;"><a href="#" >up &uarr;</a>&nbsp;</div>  
 <a id="C#"></a>
