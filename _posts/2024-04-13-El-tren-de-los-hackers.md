@@ -14,7 +14,7 @@ Yet another [TMRC](https://en.wikipedia.org/wiki/Tech_Model_Railroad_Club){:targ
 
 Imagina el AVE a 200km/h (como mínimo) por la vía del tren. Rumbo a la capital del conocimiento...
 
-Ese eres tú cuando has cogido **buenos hábitos** y llevas **tu estilo** de vida, sabes **a dónde vas**, das lo mejor de ti mismo y todo va encaminado al **éxito**. Las cosas llegan con sus pasos contados... sabiduría del abuelo, que buen hacker que fué en esta dimensión, y se fué a hackear al cielo como se dice... pero el decía: "**Cuando tu vas yo ya vuelvo**". 
+Ese eres tú cuando has cogido **buenos hábitos** y llevas **tu estilo** de vida, sabes **a dónde vas**, das lo mejor de ti mismo y todo va encaminado al **éxito**. Las cosas llegan con sus pasos contados... sabiduría del abuelo, que buen hacker que fué en esta dimensión, y se fué a hackear al cielo como se dice... pero él decía: "**Cuando tu vas yo ya vuelvo**". 
 
 El conocimiento es poder, el poder de 'gobernarte a ti mismo', proponerte de alcanzar tus **metas**, y **ser fiel contigo mismo** al conseguirlas, es una de las mayores satisfacciones del ser humano; hay pocas cosas que sean sanas y adictivas al mismo tiempo como el hecho de respetarse a si mismo por medio de la **auto-disciplina**. Es fácil cuando vas por la via del tren a 200 por hora, cada minuto que pasa haces lo necesario por que ese proyecto llegué a buen camino, sigues adelante y es como si nadie te pudiese parar... hay días que me imagino las mentes brillantes como si fueran estrellas, a velocidades vertiginosas... levanta la cara y mira al cielo en una noche despejada, comprenderás de qué está compuesto **el tren de los hackers**.
 
@@ -31,7 +31,7 @@ Para ser ese tren que nadie puede parar, hay que saber que todos los trenes nece
 
 El tren de los hackers se parece igualmente a Tom Hanks cuando habla con Wilson, a veces son solo cuatro planchas de madera y una vela agujereada, azotados por las olas de la tempestad... hay que darse la paliza a uno mismo por no caer al agua, al igual que tu amigo Wilson, al que le falta la consciencia de survivencia, ser **perseverante y resistente** contra todo lo que te quiera hundir sin olvidar de **tomar fuerzas y aprovechar todo lo que esté a tu alcance**...
 
-Por ello, piloto que lleva el tren de los hackers golpea mas rápido que Bruce Lee leyéndose 'El arte de la guerra' y tomando tapitas con los Ninja; famosos puesto que la leyenda dice que **se entrenan** haciendo el pino sobre la punta de sus katanas. Todos sabemos que poseen el verdadero respeto del **trabajo bien echo** y la sabiduría del **kōan**.  
+Por ello, el piloto que lleva el tren de los hackers golpea mas rápido que Bruce Lee leyéndose 'El arte de la guerra' y tomando tapitas con los Ninja; famosos puesto que la leyenda dice que **se entrenan** haciendo el pino sobre la punta de sus katanas. Todos sabemos que poseen el verdadero respeto del **trabajo bien echo** y la sabiduría del **kōan**.  
 Ese piloto, **aunque parezca estar solo** al lado de los invisibles que llevan la capa de Harry Potter, **tiene una legion a su lado** y el brazo mas largo que el de One Piece, el gran sabio de la fruta Goma Goma. Si le falta corriente llama a Pikachu y si hace falta le da la vuelta al mundo para que el tren baje en vez de subir... imagina un instante quien va en los vagones de atrás, todos aprendiendo de todos y como se dice en algunos de los preceptos de la « ética hacker » : **'Computers can change your life for the better.'**
 
 &nbsp;
@@ -67,4 +67,15 @@ Una analogía con el 'Be water my friend' de un célebre hacker especializado en
 
 Venga, como dice Manu : mitad y mitad es suficiente... Tchao ! y Happy hacking !!!
 
+&nbsp;
+![Enable ssh server](/assets/separateur.png){: .center-image }
+&nbsp;
 
+**Post scriptum :**  
+- Este post ha sido '**parido**' por neuronas humanas. Lo digo por y para los que dirán : **¡ Que parida !** (que los abra y de echo eso es natural) pero igualmente por si te preguntas si viene de una inteligencia artificial. Pues no chic@ aquí solo inteligencia natural.
+
+Un poco de documentación para aclarar conceptos, o por si quieres hacerte tu **RTFM** (**R**ead **T**he **F**riendly **M**anual, dicho en versión educada) 
+- <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=xkSaoWdiZJ4&list=PLOjbU1eg_4Ph-bo7tOnX2HGMTd1cQoFw3">[THS] TheHackerStyle #1 | Qué es y qué no es un hacker. Ética hacker.</a>  
+- [Hackstory.es](https://hackstory.es/){:target="_blank"}
+- [2600 News](https://2600.com/){:target="_blank"} 
+- [Y much@s mas, sobre los que no he puesto enlace y que posiblemente veas en LibrePlanet.](https://libreplanet.org/2024/program/){:target="_blank"} 
