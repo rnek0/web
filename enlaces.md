@@ -82,7 +82,7 @@ permalink: /enlaces/
 | :uk:  | [Writing your first Django app](https://docs.djangoproject.com/en/5.0/intro/tutorial01/){:target="_blank"} |  
 | :uk:  | [DjangoApp - Scaffold for Django application on Windows.](https://github.com/rnek0/DjangoApp){:target="_blank"} |  
 
-DjangoApp
+
 ---
 <div style="text-align: right;"><a href="#" >up &uarr;</a>&nbsp;</div>  
 <a id="C#"></a>
