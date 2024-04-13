@@ -5,7 +5,7 @@ date:   2024-04-13 12:00:00 +0100
 categories: hackers hack motivación 
 author: "by rnek0"
 lang: "es"
-permalink: "/apps/openssh"
+permalink: "/hackers"
 ---
 
 ![El tren de los Hackers](/assets/tren_hackers/1tren.png)
