@@ -30,6 +30,7 @@ Soy partidario del [free software](https://www.fsf.org/){:target="_blank"} porqu
 
 Puedes suscribirte a la newsletter de la FSF o aportar tu ayuda utilizando este widget :  
 
+<!-- 
 <div align="center">
     <script type="text/javascript">
         this.fsf_widget_size = "normal";
@@ -37,7 +38,7 @@ Puedes suscribirte a la newsletter de la FSF o aportar tu ayuda utilizando este 
     </script>
     <script type="text/javascript" src="https://static.fsf.org/nosvn/appeal2011/widget.js"></script>
 </div>
-
+-->
 &nbsp;
 
 Hace 25 años que hice mi primera web, desde entonces he pasado por bastantes lenguajes a nivel profesional o personal, pero todavía no sé cual me gusta mas.  
