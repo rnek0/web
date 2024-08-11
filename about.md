@@ -39,6 +39,13 @@ Puedes suscribirte a la newsletter de la FSF o aportar tu ayuda utilizando este 
     <script type="text/javascript" src="https://static.fsf.org/nosvn/appeal2011/widget.js"></script>
 </div>
 -->
+<div align="center">
+<script type="text/javascript">
+this.fsf_widget_size = "normal";
+this.fsf_associate_id = "5543984";
+</script>
+<script type="text/javascript" src="http://www.fsf.org/graphics/widget/global/widget.js"></script>
+</div>
 &nbsp;
 
 Hace 25 años que hice mi primera web, desde entonces he pasado por bastantes lenguajes a nivel profesional o personal, pero todavía no sé cual me gusta mas.  
@@ -83,4 +90,4 @@ Saludos y [¡¡¡Happy Hacking !!!](https://www.hackingisnotacrime.org/){:target
 ---
 <div style="text-align: right;"><a href="#" >up &uarr;</a>&nbsp;</div><br>
 
-<a href="https://www.stellaassange.com/" target="_blank" rel="noopener"><img src="/assets/free_julian_assange.png" alt="Olvide App for Linux" class="center-image" /></a>
+<!-- <a href="https://www.stellaassange.com/" target="_blank" rel="noopener"><img src="/assets/free_julian_assange.png" alt="Olvide App for Linux" class="center-image" /></a>-->
