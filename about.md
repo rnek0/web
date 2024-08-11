@@ -28,23 +28,10 @@ Me gusta Gnu/Linux, el [#fediverso](https://es.wikipedia.org/wiki/Fediverso){:ta
 
 Soy partidario del [free software](https://www.fsf.org/){:target="_blank"} porque GNU's Not Unix! y lo utilizo lo mas a menudo posible, sin que me obligue a ejecutarlo el 100% de mi tiempo de utilización de **mi vida informática**. A eso se le llama la libertad, de hecho todo el mundo conoce las [4 libertades del software libre](https://www.gnu.org/philosophy/free-sw.es.html#four-freedoms "Las cuatro libertades esenciales"){:target="_blank"}. En caso de que no sepas de lo que estoy hablando debes ver este [video](https://ptb.lunarviews.net/w/3e8GPSNLVDxyHfwBG2RcbC){:target="_blank"} de Richard Stallman.  
 
-Puedes suscribirte a la newsletter de la FSF o aportar tu ayuda utilizando este widget :  
+Puedes aportar tu ayuda y/o hacerte miembro de la FSF utilizando este widget :  
 
-<!-- 
 <div align="center">
-    <script type="text/javascript">
-        this.fsf_widget_size = "normal";
-        this.fsf_associate_id = "5543984";
-    </script>
-    <script type="text/javascript" src="https://static.fsf.org/nosvn/appeal2011/widget.js"></script>
-</div>
--->
-<div align="center">
-<script type="text/javascript">
-this.fsf_widget_size = "normal";
-this.fsf_associate_id = "5543984";
-</script>
-<script type="text/javascript" src="http://www.fsf.org/graphics/widget/global/widget.js"></script>
+    <a href="http://www.fsf.org/associate/support_freedom/join_fsf?referrer=5543984"><img src="//static.fsf.org/fsforg/img/normal-image.png" alt="Support freedom" title="Ayuda a proteger tu libertad, únete a la Free Software Foundation" /></a>
 </div>
 &nbsp;
 
