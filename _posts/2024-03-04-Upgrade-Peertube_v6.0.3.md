@@ -9,24 +9,9 @@ permalink: "/apps/upgrade_peertube"
 ---
 
 🇫🇷 [Peertube](https://joinpeertube.org/){:target="_blank"}  est un **logiciel libre** crée par [Chocobozzz](https://blog.cpy.re/) et financé par [Framasoft](https://framasoft.org/fr/){:target="_blank"} qui permet de vous émanciper des plateformes video proprietaries. J'ai déjà fait [un autre post sur Peertube](https://web.lunarviews.net/apps/peertube){:target="_blank"} sur sa monitorisation.
-<!--
-Une petite vidéo en Live sur la mise à jour de mon instance Peertube [https://ptb.lunarviews.net](https://ptb.lunarviews.net){:target="_blank"}  
-
-Le son n'est pas top, la musique est trop forte. Je l'ai faite assez tard dans la soirée, alors soyez indulgents 😉  Je vous ai mis des timecodes sur la barre de progression pour vous éviter les parties ennuyantes ou acceder plus rapidement a une explication.  
-
 
 &nbsp;
 
-<div style="vertical-align: baseline; display: flex; justify-content: center;">
-    <iframe title="Live - Upgrade Peertube vers v6.0.3" width="800" height="415" src="https://ptb.lunarviews.net/videos/embed/4b8a859c-0754-471d-9fa6-8fb78c8ada71" frameborder="0" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups"></iframe>
-</div>
-
-&nbsp;
-
----
-
-&nbsp;
--->
 Voici les notes (pas à pas) de ma mise à jour ainsi que quelques explications sur la procedure. 
 &nbsp;
 
